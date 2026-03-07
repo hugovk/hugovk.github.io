@@ -42,7 +42,7 @@ And because [Mariatta](https://fosstodon.org/@mariatta) wasn't with us, here's t
 all-important
 [Python T-shirt census](https://mariatta.ca/posts/python-core-sprint-2024-day-1/#python-conference-t-shirts):
 
-- [Menlo Park 2016 core sprint](https://pythoninsider.blogspot.com/2016/09/python-core-development-sprint-2016-36.html)
+- [Menlo Park 2016 core sprint](https://blog.python.org/2016/09/python-core-development-sprint-2016-36/)
   (Greg, Guido)
 - [EuroPython 2023](https://ep2023.europython.eu/) (Antonio)
 - [EuroPython 2024 volunteer](https://ep2023.europython.eu/) (Hugo)
