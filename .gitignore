@@ -19,5 +19,9 @@ hugo.linux
 # Lighthouse generated output
 .lighthouseci
 
+### Pixi ###
+.pixi/*
+!.pixi/config.toml
+
 # Project specific files
 #TODO

@@ -2,12 +2,12 @@
 
 To build the site and run a local server:
 
-1. Install [Hugo](https://gohugo.io/installation/)
+1. Install [pixi](https://pixi.sh/)
 
 2. Run:
 
 ```bash
-hugo server
+pixi run hugo server
 ```
 
 3. Push changes to `main` to

@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Hugo van Kemenade <1324225+hugovk@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "hugovk.dev"
+platforms = ["linux-64", "osx-arm64", "win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+hugo = "0.154.5.*"
