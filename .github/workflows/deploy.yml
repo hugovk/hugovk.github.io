@@ -23,15 +23,8 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
-      - name: Get Hugo version
-        id: hugo-version
-        run: echo "version=$(cat .hugo-version)" >> "$GITHUB_OUTPUT"
-
-      - name: Set up Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: ${{ steps.hugo-version.outputs.version }}
-          extended: true
+      - name: Set up Pixi
+        uses: prefix-dev/setup-pixi@v0
 
       - name: Cache Hugo resources
         uses: actions/cache@v5
@@ -44,7 +37,7 @@ jobs:
             hugo-
 
       - name: Build
-        run: hugo --minify
+        run: pixi run hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
