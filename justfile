@@ -4,6 +4,10 @@ help:
 
 @_default: help
 
+# Build the site and run a local server
+serve:
+    pixi run hugo server
+
 # Create a new blog post
 new title:
     #!/usr/bin/env bash
