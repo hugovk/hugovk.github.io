@@ -75,6 +75,7 @@ Here's a collection of enhancement proposals from different communities.
 | WEP     | [Write the Docs Enhancement Proposals](https://github.com/writethedocs/weps)                                       |
 | XEP     | [XMPP Extension Protocols](https://xmpp.org/extensions/)                                                           |
 | YTEP    | [yt Enhancement Proposals](https://ytep.readthedocs.io/)                                                           |
+| ZAP     | [Zensical Advancement Proposals](https://zensical.org/spark/proposals/)                                            |
 
 Are there more? Let me know!
 
