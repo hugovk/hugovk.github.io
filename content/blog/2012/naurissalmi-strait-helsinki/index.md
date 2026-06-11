@@ -1,7 +1,8 @@
 ---
 title: "Naurissalmi strait, Helsinki"
 date: "2012-03-24T09:30:00Z"
-tags: ["Symbian", "Tips", "#NCphotoweek", "guest post", "N8", "photography"]
+tags:
+  ["Forum Nokia", "Symbian", "Tips", "#NCphotoweek", "guest post", "N8", "photography"]
 ---
 
 **In honour of Nokia Connects photography week, we have a guest post from the man behind

@@ -3,6 +3,7 @@ title: "Symbian platform share in the Ovi Store (II)"
 date: "2011-09-08T22:47:38Z"
 tags:
   [
+    "Forum Nokia",
     "Ovi",
     "Symbian",
     "Tools",

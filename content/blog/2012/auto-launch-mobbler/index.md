@@ -1,7 +1,7 @@
 ---
 title: "How to auto-launch Mobbler when plugging in headphones"
 date: "2012-01-05T16:33:39Z"
-tags: ["Symbian", "Mobbler", "Nokia Situations", "Tips"]
+tags: ["Forum Nokia", "Symbian", "Mobbler", "Nokia Situations", "Tips"]
 ---
 
 To scrobble the Nokia music player,

@@ -1,7 +1,8 @@
 ---
 title: "Symbian platform share in the Ovi Store"
 date: "2011-04-26T22:14:34Z"
-tags: ["Ovi", "Symbian", "Tools", "Ovi Store", "Mobbler", "Android", "Ovid"]
+tags:
+  ["Forum Nokia", "Ovi", "Symbian", "Tools", "Ovi Store", "Mobbler", "Android", "Ovid"]
 thumbnail: "ovid-mobbler-2011-05-14.png"
 ---
 
