@@ -697,7 +697,8 @@ owners due to it being the first Mobbler release that supported their phones.&lt
 and I&amp;rsquo;d really like to see charts from other applications that have been in Ovi Store
 for longer.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 1.&lt;/strong&gt; Grab the Ovid scripts from
-&lt;a href="https://web.archive.org/web/20120504212053/http://projects.forum.nokia.com/ovid/"&gt;Forum Nokia Projects&lt;/a&gt;.&lt;/p&gt;
+&lt;a href="https://web.archive.org/web/20120504212053/http://projects.forum.nokia.com/ovid/"&gt;Forum Nokia Projects&lt;/a&gt;
+[&lt;a href="https://github.com/hugovk/ovid"&gt;mirror&lt;/a&gt;].&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2.&lt;/strong&gt; The boring manual step. Paste the tab seperated devices list from the Ovi
 Publish report into .tsv files, one per month. For example 2011-03.tsv:&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;#1 Nokia N8-00 11.2 %
