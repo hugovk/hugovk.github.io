@@ -54,7 +54,8 @@ and I'd really like to see charts from other applications that have been in Ovi 
 for longer.
 
 **Step 1.** Grab the Ovid scripts from
-[Forum Nokia Projects](https://web.archive.org/web/20120504212053/http://projects.forum.nokia.com/ovid/).
+[Forum Nokia Projects](https://web.archive.org/web/20120504212053/http://projects.forum.nokia.com/ovid/)
+[[mirror](https://github.com/hugovk/ovid)].
 
 **Step 2.** The boring manual step. Paste the tab seperated devices list from the Ovi
 Publish report into .tsv files, one per month. For example 2011-03.tsv:
