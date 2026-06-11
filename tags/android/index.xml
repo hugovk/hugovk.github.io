@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on Hugo van Kemenade</title><link>https://hugovk.dev/tags/android/</link><description>Recent content in Android on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Tue, 26 Apr 2011 22:14:34 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Symbian platform share in the Ovi Store</title><link>https://hugovk.dev/blog/2011/symbian-platform-share/</link><pubDate>Tue, 26 Apr 2011 22:14:34 +0000</pubDate><guid>https://hugovk.dev/blog/2011/symbian-platform-share/</guid><description>&lt;p&gt;Android provides this very useful chart* for developers, making it very clear which
+platforms are in common usage, so developers can accurately target different platforms.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://web.archive.org/web/20110423230549/http://developer.android.com/resources/dashboard/platform-versions.html"&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ 
+ srcset="https://hugovk.dev/blog/2011/symbian-platform-share/android-chart_hu_613d7a930abbcff1.webp"
+ 
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="460"
+ height="250"
+ class="mx-auto my-0 rounded-md"
+ alt="Android platform share"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2011/symbian-platform-share/android-chart.png"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Unfortunately Nokia/Ovi Store don&amp;rsquo;t provide this kind of data so it&amp;rsquo;s left to guesswork.
+For example, last July (and before Symbian^3 came out), All About Symbian claimed the
+split of S60 5th edition to 3rd edition application sales was
+&lt;a href="https://allaboutsymbian.com/news/item/11840_Why_do_Symbian_developers_take.php"&gt;roughly 10 / 1&lt;/a&gt;,
+&amp;ldquo;collating info from a number of sources&amp;rdquo;, though they won&amp;rsquo;t share these sources.&lt;/p&gt;
+&lt;p&gt;Ovi Store provides publishers with a monthly report of how many downloads have been
+made, a rank of the countries, and also a rank of which phones that have downloaded your
+application alongside a percentage. They don&amp;rsquo;t break it down into a share of the
+different platforms: S60 3rd edition, S60 5th edition/Symbian^1, Symbian^3.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2011/symbian-platform-share/ovi-report_hu_ccb0be7db3f65580.webp 330w,https://hugovk.dev/blog/2011/symbian-platform-share/ovi-report_hu_3a5ffc702d33d343.webp 660w
+ 
+ 
+ ,https://hugovk.dev/blog/2011/symbian-platform-share/ovi-report_hu_f96acdbd390219b2.webp 1024w
+ 
+ 
+ 
+ 
+ ,https://hugovk.dev/blog/2011/symbian-platform-share/ovi-report_hu_f96acdbd390219b2.webp 1024w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="1024"
+ height="600"
+ class="mx-auto my-0 rounded-md"
+ alt="Ovi Store monthly report"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2011/symbian-platform-share/ovi-report_hu_e7e565b538159d28.png" srcset="https://hugovk.dev/blog/2011/symbian-platform-share/ovi-report_hu_a4c671505fd4cd26.png 330w,https://hugovk.dev/blog/2011/symbian-platform-share/ovi-report_hu_e7e565b538159d28.png 660w
+ 
+ ,https://hugovk.dev/blog/2011/symbian-platform-share/ovi-report.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2011/symbian-platform-share/ovi-report.png 1024w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;So I&amp;rsquo;ve knocked up a Perl script to take the monthly reports and divvy out a platform
+share and plot it. Here&amp;rsquo;s a graph of Mobbler downloads by month.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2011/symbian-platform-share/ovid-mobbler-2011-05-14_hu_10fefba52fe90978.webp 330w,https://hugovk.dev/blog/2011/symbian-platform-share/ovid-mobbler-2011-05-14_hu_945be046557bf22d.webp 660w
+ 
+ 
+ ,https://hugovk.dev/blog/2011/symbian-platform-share/ovid-mobbler-2011-05-14_hu_edc4ac04d96ec893.webp 800w
+ 
+ 
+ 
+ 
+ ,https://hugovk.dev/blog/2011/symbian-platform-share/ovid-mobbler-2011-05-14_hu_edc4ac04d96ec893.webp 800w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="800"
+ height="400"
+ class="mx-auto my-0 rounded-md"
+ alt="Mobbler downloads from Ovi Store (21st Feb - 14th May 2011)"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2011/symbian-platform-share/ovid-mobbler-2011-05-14_hu_4b45a52558d0bf21.png" srcset="https://hugovk.dev/blog/2011/symbian-platform-share/ovid-mobbler-2011-05-14_hu_40dff43004ebcfae.png 330w,https://hugovk.dev/blog/2011/symbian-platform-share/ovid-mobbler-2011-05-14_hu_4b45a52558d0bf21.png 660w
+ 
+ ,https://hugovk.dev/blog/2011/symbian-platform-share/ovid-mobbler-2011-05-14.png 800w
+ 
+ 
+ ,https://hugovk.dev/blog/2011/symbian-platform-share/ovid-mobbler-2011-05-14.png 800w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Mobbler was previously in the Ovi Store through the
+&lt;a href="http://news.bbc.co.uk/2/hi/technology/8152443.stm"&gt;Symbian Foundation&amp;rsquo;s Horizon programme&lt;/a&gt;,
+but since the closure of the Foundation we don&amp;rsquo;t have access to the old data. The newest
+Mobbler 2.x has been back in the store since February through our own account: 48,906
+downloads from
+&lt;a href="https://web.archive.org/web/20120504212053/http://store.ovi.com/content/75692"&gt;Ovi Store&lt;/a&gt;
+(and another 16,126 from
+&lt;a href="https://web.archive.org/web/20120406133209/http://code.google.com/p/mobbler/downloads/list"&gt;Google Code&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s strange to see the numbers going the &amp;ldquo;wrong&amp;rdquo; way. Why is this?&lt;/p&gt;
+&lt;p&gt;Well, Nokia recently said in a
+&lt;a href="https://web.archive.org/web/20120504212053/http://press.nokia.com/2011/04/12/nokias-ovi-store-hits-5-million-downloads-per-day-as-users-enjoy-new-symbian-devices-and-apps/"&gt;press release&lt;/a&gt;
+Symbian^3 devices &amp;ldquo;account for about 15 percent of the daily downloads&amp;rdquo;. And this very
+closely matches Mobbler&amp;rsquo;s S^3 numbers for March (14.6%), April (16.3%) and half of May
+(14.4%) . It was almost double that in February (27.1%), presumably a rush from S^3
+owners due to it being the first Mobbler release that supported their phones.&lt;/p&gt;
+&lt;p&gt;But why are the older S60 3rd edition platforms growing in share? I&amp;rsquo;ve no idea.&lt;/p&gt;
+&lt;p&gt;Would you like to create a chart like this for your Ovi Store application? Here&amp;rsquo;s how,
+and I&amp;rsquo;d really like to see charts from other applications that have been in Ovi Store
+for longer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1.&lt;/strong&gt; Grab the Ovid scripts from
+&lt;a href="https://web.archive.org/web/20120504212053/http://projects.forum.nokia.com/ovid/"&gt;Forum Nokia Projects&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2.&lt;/strong&gt; The boring manual step. Paste the tab seperated devices list from the Ovi
+Publish report into .tsv files, one per month. For example 2011-03.tsv:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;#1 Nokia N8-00 11.2 %
+#2 Nokia 5800 XpressMusic 10.2 %
+&amp;lt;snip&amp;gt;
+#68 Nokia N93 0.0 %
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Step 3.&lt;/strong&gt; To generate a single report, call&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ovid.pl 2011-03.tsv
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This outputs to standard output, for example:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;#1 11.2% Symbian^3 Nokia N8-00
+#2 10.2% Symbian^1 Nokia 5800 XpressMusic
+&amp;lt;snip&amp;gt;
+#68 0.0% S60 3.0 Nokia N93
+=============================
+4 Symbian^3 models: 16.3%
+12 Symbian^1 models: 39%
+51 S60 3rd edition: 44%
+-----------------------------
+25 S60 3.2 models: 18.5%
+13 S60 3.1 models: 20.6%
+13 S60 3.0 models: 4.9%
+-----------------------------
+1 unknown models: 0.3%
+=============================
+68 total models: 99.6%
+=============================
+
+Ignoring the unknown:
+=============================
+4 Symbian^3 models: 16.3%
+12 Symbian^1 models: 39.1%
+51 S60 3rd ed. models: 44%
+-----------------------------
+25 S60 3.2 models: 18.6%
+13 S60 3.1 models: 20.7%
+13 S60 3.0 models: 4.9%
+=============================
+67 total models: 99.6%
+=============================
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Step 4.&lt;/strong&gt; To generate a chart for several months, download
+&lt;a href="https://web.archive.org/web/20120504212053/http://www.gnuplot.info/download.html"&gt;gnuplot&lt;/a&gt;
+and stick it in your PATH. (Tested with gnuplot version 4.4.0.)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 5.&lt;/strong&gt; Edit ovid.plt to set a title for your chart.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 6&lt;/strong&gt;. Run ovid.bat. This runs ovid.pl on all the .tsv files. There&amp;rsquo;s usually at
+least one unknown model: &amp;ldquo;Unresolved&amp;rdquo;. If you get any others, the missing models need
+adding to the lists at the top of ovid.pl. Please let me know and I&amp;rsquo;ll update the script
+as well.&lt;/p&gt;
+&lt;p&gt;If you use this, please post links to your charts too!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;small&gt;* Portions of this page are reproduced from work created and shared by the
+&lt;a href="https://web.archive.org/web/20120504212053/http://code.google.com/policies.html"&gt;Android Open Source Project&lt;/a&gt;
+and used according to terms described in the
+&lt;a href="https://creativecommons.org/licenses/by/2.5/"&gt;Creative Commons 2.5 Attribution License&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Originally posted on
+&lt;a href="https://web.archive.org/web/20110518012939/http://blogs.forum.nokia.com/blog/hugo-van-kemenades-forum-nokia-blog/2011/04/26/symbian-platform-share"&gt;Hugo van Kemenade&amp;rsquo;s Forum Nokia Blog&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

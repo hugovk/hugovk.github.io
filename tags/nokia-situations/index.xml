@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nokia Situations on Hugo van Kemenade</title><link>https://hugovk.dev/tags/nokia-situations/</link><description>Recent content in Nokia Situations on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Thu, 05 Jan 2012 16:33:39 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/nokia-situations/index.xml" rel="self" type="application/rss+xml"/><item><title>How to auto-launch Mobbler when plugging in headphones</title><link>https://hugovk.dev/blog/2012/auto-launch-mobbler/</link><pubDate>Thu, 05 Jan 2012 16:33:39 +0000</pubDate><guid>https://hugovk.dev/blog/2012/auto-launch-mobbler/</guid><description>&lt;p&gt;To scrobble the Nokia music player,
+&lt;a href="https://web.archive.org/web/20120125211752/http://code.google.com/p/mobbler/"&gt;Mobbler&lt;/a&gt;
+must be running in the background. Using Nokia Situations, you can have Mobbler
+automatically launched whenever you plug in your headphones. Here&amp;rsquo;s how.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Install the free
+&lt;a href="https://web.archive.org/web/20120125211752/http://store.ovi.com/content/75243"&gt;Nokia Situations&lt;/a&gt;
+from Nokia Store.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open the Situations application and select Options -&amp;gt; Create new. Rename &amp;ldquo;New
+situation&amp;rdquo; to something like Music and change the icon.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select the new situation and change the settings. Change the settings as you want,
+but the important one is to select &amp;ldquo;Launch Application&amp;rdquo; and tick Mobbler and any
+other applications you&amp;rsquo;d like to launch when plugging in headphones. For example,
+also choose Music player and
+&lt;a href="https://web.archive.org/web/20120125211752/http://store.ovi.com/content/180798"&gt;Pod O&amp;rsquo;Clock&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;After pressing OK, it will ask &amp;ldquo;Close launched applications when situation changes?&amp;rdquo;
+I chose No, but choose Yes if you want them closed when unplugging the headphones.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now, close Situations and open Settings -&amp;gt; Phone -&amp;gt; Accessories -&amp;gt; Headphones and
+change the Default profile from &amp;ldquo;Active profile&amp;rdquo; to the new music profile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now, close Settings, and whenever you plug in your headphones, Mobbler (and any other
+applications you chose) will be automatically launched.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Thanks to one of
+&lt;a href="https://web.archive.org/web/20120523062232/http://twitter.com/mobbler"&gt;@Mobbler&lt;/a&gt;&amp;rsquo;s
+followers for this tip! It was a long time ago and I can&amp;rsquo;t remember who it was, please
+let me know if it was you!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Originally posted on
+&lt;a href="https://web.archive.org/web/20120125211752/http://www.developer.nokia.com/Community/Blogs/blog/hugo-van-kemenades-forum-nokia-blog/2012/01/05/how-to-auto-launch-mobbler-when-plugging-in-headphones"&gt;Hugo van Kemenade&amp;rsquo;s Forum Nokia Blog&lt;/a&gt;.
+Screenshots lost to history.&lt;/p&gt;</description></item></channel></rss>
