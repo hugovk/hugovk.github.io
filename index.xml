@@ -1,4 +1,217 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo van Kemenade</title><link>https://hugovk.dev/</link><description>Recent content on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Wed, 18 Feb 2026 13:35:25 +0000</lastBuildDate><atom:link href="https://hugovk.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>A CLI to fight GitHub spam</title><link>https://hugovk.dev/blog/2026/gh-triage/</link><pubDate>Wed, 18 Feb 2026 13:35:25 +0000</pubDate><guid>https://hugovk.dev/blog/2026/gh-triage/</guid><description>&lt;h2 id="gh-triage-spam" class="relative group"&gt;&lt;code&gt;gh triage spam&lt;/code&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#gh-triage-spam" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="https://github.com/python/cpython/issues?q=sort%3Aupdated-desc%20state%3Aclosed%20label%3Ainvalid"&gt;We&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo van Kemenade</title><link>https://hugovk.dev/</link><description>Recent content on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Fri, 12 Jun 2026 07:35:12 +0000</lastBuildDate><atom:link href="https://hugovk.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>I'm delighted to rejoin the Sovereign Tech Fellowship</title><link>https://hugovk.dev/blog/2026/sovereign-tech-fellowship/</link><pubDate>Fri, 12 Jun 2026 07:35:12 +0000</pubDate><guid>https://hugovk.dev/blog/2026/sovereign-tech-fellowship/</guid><description>&lt;p&gt;I&amp;rsquo;m happy to rejoin the
+&lt;a href="https://www.sovereign.tech/programs/fellowship"&gt;Sovereign Tech Fellowship&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;I was one of six participants in the
+&lt;a href="../../2025/im-excited-to-join-the-sovereign-tech-fellowship/"&gt;2025 pilot&lt;/a&gt; to pay
+maintainers of critical open source technologies in the public interest. By all accounts
+this first cohort was a resounding success, and I&amp;rsquo;m glad to see the programme continue.&lt;/p&gt;
+&lt;p&gt;It was wonderful to be part of the inaugural Sovereign Tech Fellowship, and incredibly
+beneficial to my projects: it gave me the time to focus on releasing Python 3.14 and
+3.15 smoothly, to mentor and onboard others, and to support the wider community.&lt;/p&gt;
+&lt;h2 id="2025-impact" class="relative group"&gt;2025 impact &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#2025-impact" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;The
+&lt;a href="https://www.sovereign.tech/publications/evaluation-sovereign-tech-fellowship-2025"&gt;2025 evaluation report&lt;/a&gt;
+covers all six of us and the benefits of the programme at a higher level. Here&amp;rsquo;s some of
+the specific things I achieved.&lt;/p&gt;
+&lt;p&gt;I was happy with how the
+&lt;a href="https://discuss.python.org/t/python-3-14-0-final-is-here/104210"&gt;big Python 3.14.0&lt;/a&gt;
+&lt;a href="../../2025/releasing-python-3-14-0/"&gt;release went&lt;/a&gt;. This is in part from having a good
+team to work with, and building on the past, but no doubt also due to being able to
+focus and invest time thanks to the Fellowship.&lt;/p&gt;
+&lt;p&gt;On many occasions, having time to dedicate to the role meant I could prioritise things
+as they occurred. For example, when needing to make expedited releases, I could dedicate
+time to go through all the necessary prep, and make the release without any stress of
+fitting it in around a regular job. Similarly, when last-minute problems came up on
+release day, such as newly-committed code not passing tests, I didn&amp;rsquo;t need to rush, and
+could contact the contributor to arrange a fix. Some other release managers had reverted
+similar changes to let the contributor try again for a later release, but there was less
+pressure for me and I could wait longer.&lt;/p&gt;
+&lt;p&gt;I was able to mentor other project members, such as helping onboard the next release
+manager, and also answer questions for other triagers. I promoted two new triagers in
+different projects. Other community members sometimes asked me about how to contribute.
+I attended many community &amp;ldquo;office hours&amp;rdquo; meetings and Monthly Conference Organisers'
+calls to share what&amp;rsquo;s going on and answer questions, and likewise
+&lt;a href="https://hugovk.dev/blog/"&gt;blogged&lt;/a&gt; and shared on social media such as
+&lt;a href="https://mastodon.social/@hugovk"&gt;Mastodon&lt;/a&gt;,
+&lt;a href="https://bsky.app/profile/hugovk.dev"&gt;Bluesky&lt;/a&gt; and
+&lt;a href="https://www.linkedin.com/in/hugovk/"&gt;LinkedIn&lt;/a&gt;. I was able to attend many conferences
+and give talks about the upcoming release, and discuss with other attendees what happens
+with Python releases and the project in general. This all helps improve transparency. I
+also chaired many monthly
+&lt;a href="https://docs-community.readthedocs.io/community/monthly-meeting.html"&gt;Docs Working Group meetings&lt;/a&gt;,
+and attended many other meetings from different projects.&lt;/p&gt;
+&lt;p&gt;I was able to make many improvements in the release process, through additional
+automation and testing to remove tedious manual steps. I&amp;rsquo;ve improved the accessibility
+of websites visited by tens of millions per month.&lt;/p&gt;
+&lt;p&gt;I created a triage dashboard that helped us close hundreds of issues, and also complete
+forgotten backports including security fixes.&lt;/p&gt;
+&lt;p&gt;I was also able to invest time on non-technical, social, organisational and governance
+improvements. I&amp;rsquo;m proud
+&lt;a href="https://discuss.python.org/t/alternate-the-language-summit-between-pycon-us-and-europython/102156"&gt;my proposal was accepted&lt;/a&gt;
+to alternate the Language Summit between PyCon US and EuroPython, rather than always
+being in the US, to improve the diversity of voices of who will shape the future of
+Python. The
+&lt;a href="https://ep2026.europython.eu/language-summit/"&gt;2026 summit will be held at EuroPython&lt;/a&gt;
+and I&amp;rsquo;m helping organise.&lt;/p&gt;
+&lt;p&gt;Since 2009, the summit has been a one-day event that takes place at PyCon US before the
+main conference days. It has also been held at EuroPython twice, in 2010 and 2011. The
+PSF mission is &lt;em&gt;&amp;ldquo;to support and facilitate the growth of a diverse and international
+community of Python programmers&amp;rdquo;&lt;/em&gt;, and not all potential attendees can travel to the US
+each year. This proposal took a lot of work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In November 2024, the core team discussed on Discord the possibility of alternating
+the summit between PyCon US and EuroPython. People were in favour, but said it would
+need to be discussed at the summit at PyCon US in May 2025.&lt;/li&gt;
+&lt;li&gt;In March 2025, I asked for the topic to be added to the agenda, as I wasn&amp;rsquo;t attending.&lt;/li&gt;
+&lt;li&gt;In May, the discussion took place. The minutes simply said: &amp;ldquo;Watch out for a Discourse
+thread to discuss this.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;In July, during EuroPython, I asked summit attendees what the impression was, and they
+said people were in favour. I also spoke with the chair of EuroPython Society about
+the summit requirements, and they said they&amp;rsquo;d be happy to host us.&lt;/li&gt;
+&lt;li&gt;In August, because no Discourse thread had appeared, I opened a proposal to alternate.&lt;/li&gt;
+&lt;li&gt;In September, during the Steering Council Q&amp;amp;A at the Core Team Sprint, I asked about
+next steps. The consensus was for the SC to open a formal poll amongst the core team.&lt;/li&gt;
+&lt;li&gt;In October, the SC opened a poll for core team members.&lt;/li&gt;
+&lt;li&gt;In November, the poll concluded overwhelmingly in favour of alternating.&lt;/li&gt;
+&lt;li&gt;In December, the SC approved my request. I volunteered to help organise the summit and
+opened discussions with the EuroPython Society to make it happen in 2026.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I had more free time to spend on non-open source things, but also more free time to help
+the local Python community such as by co-organising two
+&lt;a href="https://helsinki-python.github.io/"&gt;local&lt;/a&gt;
+&lt;a href="https://pydata-helsinki.github.io/"&gt;meetups&lt;/a&gt;. One person I nominated became a Fellow of
+the Python Software Foundation and another of the EuroPython Society, which recognises
+the importance of community work.&lt;/p&gt;
+&lt;p&gt;Finally, I enjoyed our monthly Fellowship meetings where the six of us all gave a
+summary of our last month&amp;rsquo;s work. Similarly, it was great to meet most of them in person
+along with people from the Agency at the
+&lt;a href="https://www.sovereign.tech/news/who-will-maintain-our-digital-future"&gt;event to mark the inaugural Sovereign Tech Fellowship cohort&lt;/a&gt;
+and hear the results of the evaluation report.&lt;/p&gt;
+&lt;h2 id="arbitrary-statistics" class="relative group"&gt;Arbitrary statistics &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#arbitrary-statistics" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;On GitHub:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Total contributions: 6,642&lt;/li&gt;
+&lt;li&gt;Issues created: 90&lt;/li&gt;
+&lt;li&gt;PRs created: 901&lt;/li&gt;
+&lt;li&gt;Issues closed: 446&lt;/li&gt;
+&lt;li&gt;PRs merged: 1,401&lt;/li&gt;
+&lt;li&gt;PRs closed: 142&lt;/li&gt;
+&lt;li&gt;Total issues involved with: 1,409&lt;/li&gt;
+&lt;li&gt;Total PRs involved with: 4,095&lt;/li&gt;
+&lt;li&gt;Repositories affected: 409&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Made 55 releases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;13 of Python 3.14&lt;/li&gt;
+&lt;li&gt;3 of Python 3.15&lt;/li&gt;
+&lt;li&gt;39 of PyPI projects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Started maintaining:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://planetpython.org/"&gt;Python Planet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pythonwheels.com/"&gt;Python Wheels&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Archived:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/python-twitter-tools/twitter/issues/476"&gt;Python Twitter Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://discuss.python.org/t/archive-python-ideas-mailing-list-in-favour-of-discourse/88398"&gt;python-ideas mailing list&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Attended eight conferences in Berlin (&lt;a href="https://25.foss-backstage.de/"&gt;FOSS Backstage&lt;/a&gt;
+and &lt;a href="https://25.foss-backstage.design/"&gt;Design&lt;/a&gt;), Bologna
+(&lt;a href="https://2025.pycon.it/en"&gt;PyCon Italia&lt;/a&gt;), Prague
+(&lt;a href="https://ep2025.europython.eu/"&gt;EuroPython&lt;/a&gt;), Athens
+(&lt;a href="https://2025.pycon.gr/en/"&gt;PyCon Greece&lt;/a&gt;), Manchester
+(&lt;a href="https://2025.pyconuk.org/"&gt;PyCon UK&lt;/a&gt;), Tallinn
+(&lt;a href="https://2025.pycon.ee/"&gt;PyCon Estonia&lt;/a&gt;), Jyväskylä
+(&lt;a href="https://fi.pycon.org/"&gt;PyCon Finland&lt;/a&gt;) and Stockholm
+(&lt;a href="https://pycon.se/"&gt;PyCon Sweden&lt;/a&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;On a discussion panel at one&lt;/li&gt;
+&lt;li&gt;Gave a lightning talk at five&lt;/li&gt;
+&lt;li&gt;Announced PyCon Finland at four&lt;/li&gt;
+&lt;li&gt;Helped new contributors at sprints at three&lt;/li&gt;
+&lt;li&gt;Hosted a barcamp session at one&lt;/li&gt;
+&lt;li&gt;Helped organise one by reviewing talks and through promotion&lt;/li&gt;
+&lt;li&gt;Volunteered at one&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Attended three online conferences:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;March: SustainOSS Virtual Forum&lt;/li&gt;
+&lt;li&gt;May: Maintainer Summit&lt;/li&gt;
+&lt;li&gt;December: PyLadiesCon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Other events:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;September: &lt;a href="../../2025/python-core-sprint/"&gt;Core Team Sprint&lt;/a&gt; in Cambridge
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://open.spotify.com/episode/3zMQYlP7hF7fKi8wdlAxyn"&gt;Podcast interview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;December:
+&lt;a href="https://www.sovereign.tech/news/who-will-maintain-our-digital-future"&gt;Sovereign Tech Agency event&lt;/a&gt;
+in Berlin to mark the inaugural Fellowship cohort&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Meetups:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Co-organised 16 meetups for &lt;a href="https://helsinki-python.github.io/"&gt;two&lt;/a&gt; groups,
+&lt;a href="https://pydata-helsinki.github.io/"&gt;one&lt;/a&gt; which we restarted in 2025&lt;/li&gt;
+&lt;li&gt;Attended 27 meetups of 11 groups in four cities and three countries&lt;/li&gt;
+&lt;li&gt;Gave one long talk and four lightning talks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://docs-community.readthedocs.io/community/index.html"&gt;Docs Working Group&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Organised 12
+&lt;a href="https://docs-community.readthedocs.io/monthly-meeting/index.html"&gt;monthly meetings&lt;/a&gt;,
+chaired 9, attended 10&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://github.com/psf/user-success-wg/blob/main/WG-charter.md"&gt;User Success Workgroup&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Attended two meetings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Published 17 blog posts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;February: &lt;a href="../../2025/how-to-delay-a-python-release/"&gt;How to delay a Python release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February:
+&lt;a href="../../2025/im-excited-to-join-the-sovereign-tech-fellowship/"&gt;I&amp;rsquo;m excited to join the Sovereign Tech Fellowship&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February: &lt;a href="../../2025/improving-licence-metadata/"&gt;Improving licence metadata&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;March:
+&lt;a href="../../2025/free-threaded-python-on-github-actions/"&gt;Free-threaded Python on GitHub Actions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;April:
+&lt;a href="../../2025/my-most-used-command-line-commands/"&gt;My most used command-line commands&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;May: &lt;a href="../../2025/peps-and-co/"&gt;PEPs &amp;amp; Co.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;June: &lt;a href="../../2025/run-coverage-on-tests/"&gt;Run coverage on tests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;August:
+&lt;a href="../../2025/europython-2025-a-roundup-of-writeups/"&gt;EuroPython 2025: A roundup of writeups&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;September: &lt;a href="../../2025/ready-prek-go/"&gt;Ready prek go!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;October: &lt;a href="../../2025/releasing-python-3-14-0/"&gt;Releasing Python 3.14.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;October: &lt;a href="../../2025/lazy-imports/"&gt;Three times faster with lazy imports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;November: &lt;a href="../../2025/python-core-sprint/"&gt;Python Core Sprint 2025&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;November: &lt;a href="../../2025/secrets-in-env-vars/"&gt;Setting secrets in env vars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;December: &lt;a href="../../2025/steering-council-election/"&gt;Steering Council election&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;December: &lt;a href="../../2025/steering-council-results/"&gt;Steering Council results&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;December: &lt;a href="../../2025/and-now/"&gt;And now for something completely different&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;December: &lt;a href="../../2025/minus-six/"&gt;Replacing python-dateutil to remove six&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reported 67 accounts to GitHub for spam/abuse/inauthentic activity.&lt;/p&gt;
+&lt;h2 id="2026-and-beyond" class="relative group"&gt;2026 and beyond &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#2026-and-beyond" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;This time we&amp;rsquo;re 14 Fellows, and not only maintainers but also community managers and
+technical writers. It&amp;rsquo;s great that Python core dev
+&lt;a href="https://stan.ulbrych.org/"&gt;Stan Ulbrych&lt;/a&gt; and PSF director
+&lt;a href="https://georgiker.com/"&gt;Georgi Ker&lt;/a&gt; are also joining, and I&amp;rsquo;m looking forward to
+meeting the other
+&lt;a href="https://www.sovereign.tech/news/meet-the-2026-sovereign-tech-fellows"&gt;Sovereign Tech Fellows&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m really pleased to again be working with the Sovereign Tech Agency. They&amp;rsquo;re showing
+the world some of the ways we can improve open source and critical digital
+infrastructure, through a range of different
+&lt;a href="https://www.sovereign.tech/programs"&gt;programmes&lt;/a&gt;. Their success has informed the
+proposal for an &lt;a href="https://eu-stf.openforumeurope.org/"&gt;EU Sovereign Tech Fund (EU-STF)&lt;/a&gt;,
+and they have also helped shape the
+&lt;a href="https://digital-commons-edic.eu/"&gt;European Digital Infrastructure Consortium for digital commons (DC-EDIC)&lt;/a&gt;,
+with an &lt;a href="https://digital-commons-edic.eu/projects/#eu-stf"&gt;EU-STF pilot&lt;/a&gt; kicking off
+later this month which builds on their experience. And it&amp;rsquo;s good to see the focus on
+maintenance and long-term sustainability in the brand new
+&lt;a href="https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy"&gt;EU Open Source Strategy&lt;/a&gt;,
+announced just last week.&lt;/p&gt;
+&lt;p&gt;And by the way, the Sovereign Tech Agency are currently hiring, check out their
+&lt;a href="https://www.sovereign.tech/jobs"&gt;open positions&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;small&gt;Header photo by &lt;a href="https://www.janmichalko.com/"&gt;Jan Michalko&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description></item><item><title>A CLI to fight GitHub spam</title><link>https://hugovk.dev/blog/2026/gh-triage/</link><pubDate>Wed, 18 Feb 2026 13:35:25 +0000</pubDate><guid>https://hugovk.dev/blog/2026/gh-triage/</guid><description>&lt;h2 id="gh-triage-spam" class="relative group"&gt;&lt;code&gt;gh triage spam&lt;/code&gt; &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#gh-triage-spam" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="https://github.com/python/cpython/issues?q=sort%3Aupdated-desc%20state%3Aclosed%20label%3Ainvalid"&gt;We&lt;/a&gt;
 &lt;a href="https://github.com/python/cpython/issues/144900"&gt;get&lt;/a&gt;
 &lt;a href="https://github.com/python/cpython/issues/144899"&gt;a&lt;/a&gt;
 &lt;a href="https://github.com/python/cpython/pull/144806"&gt;lot&lt;/a&gt;
