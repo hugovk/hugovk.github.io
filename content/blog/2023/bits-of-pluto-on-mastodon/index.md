@@ -6,7 +6,7 @@ tags: ["linode-hackathon", "mastodon", "open-source", "bots"]
 
 ## What I built
 
-I built a Mastodon bot that posts a a different bit of Pluto every six hours.
+I built a Mastodon bot that posts a different bit of Pluto every six hours.
 
 ### Category Submission
 
