@@ -127,8 +127,8 @@ You need a Google account and credentials, and Google gives 1 TiB of free quota 
 month.&lt;/p&gt;
 &lt;p&gt;Each month, I have automation to fetch the download numbers for the 8,000 most popular
 packages over the past 30 days, and make it available as more accessible JSON and CSV
-files at &lt;a href="https://hugovk.github.io/top-pypi-packages/"&gt;Top PyPI Packages&lt;/a&gt;. This data is
-&lt;a href="https://hugovk.github.io/top-pypi-packages/#users"&gt;widely used&lt;/a&gt; for
+files at &lt;a href="https://hugovk.dev/top-pypi-packages/"&gt;Top PyPI Packages&lt;/a&gt;. This data is
+&lt;a href="https://hugovk.dev/top-pypi-packages/#users"&gt;widely used&lt;/a&gt; for
 &lt;a href="https://github.com/hugovk/top-pypi-packages/issues/23"&gt;research in academia and industry&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;However, as more packages and releases are uploaded to PyPI, and there are more and more
 downloads logged, the amount of billed data increases too.&lt;/p&gt;
@@ -1034,7 +1034,7 @@ version (at least 3.8, but preferably 3.11):&lt;/p&gt;
 
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;center&gt;&lt;small&gt;Source: &lt;a href="https://hugovk.github.io/pypi-tools/charts.html"&gt;pypi-tools&lt;/a&gt;&lt;/small&gt;&lt;/center&gt;
+&lt;center&gt;&lt;small&gt;Source: &lt;a href="https://hugovk.dev/pypi-tools/charts.html"&gt;pypi-tools&lt;/a&gt;&lt;/small&gt;&lt;/center&gt;
 &lt;p&gt;But why does such an old Python version have so many downloads?&lt;/p&gt;
 &lt;h2 id="all-downloads" class="relative group"&gt;All downloads &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#all-downloads" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Let&amp;rsquo;s dig into the numbers using a handy tool called
 &lt;a href="https://github.com/ofek/pypinfo"&gt;pypinfo&lt;/a&gt;, which helps us analyse the
@@ -1308,7 +1308,7 @@ California, 9th December, 1992
 (&lt;a href="https://www.flickr.com/photos/nasacommons/30498961044"&gt;source: NASA on The Commons&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;</description></item><item><title>How to search 5,000 Python projects</title><link>https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/</link><pubDate>Fri, 09 Dec 2022 12:44:21 +0000</pubDate><guid>https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/</guid><description>&lt;h2 id="why" class="relative group"&gt;Why? &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#why" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Often Python core developers think about deprecating and removing old bits of the
 language. But first it&amp;rsquo;s a good idea to get an idea of how much the old bits are used.
 Searching the
-&lt;a href="https://hugovk.github.io/top-pypi-packages/"&gt;5,000 most-popular projects on PyPI&lt;/a&gt; is a
+&lt;a href="https://hugovk.dev/top-pypi-packages/"&gt;5,000 most-popular projects on PyPI&lt;/a&gt; is a
 helpful proxy to gauge community use.&lt;/p&gt;
 &lt;h2 id="how" class="relative group"&gt;How? &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Core developer &lt;a href="https://vstinner.readthedocs.io/"&gt;Victor Stinner&lt;/a&gt; has written a couple
 of useful scripts that live in his &lt;a href="https://github.com/vstinner/misc"&gt;misc&lt;/a&gt; repo.&lt;/p&gt;
@@ -2850,9 +2850,9 @@ from PyPI Stats&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Python version share over time, 3</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-3/</link><pubDate>Tue, 01 Jan 2019 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-3/</guid><description>&lt;h2 id="january-2016--december-2018" class="relative group"&gt;January 2016 — December 2018 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--december-2018" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;To celebrate the release of
 &lt;a href="https://www.python.org/downloads/release/python-372/"&gt;Python 3.7.2&lt;/a&gt; on
 &lt;a href="https://peps.python.org/pep-0537/"&gt;Christmas Eve 2018&lt;/a&gt;, and with
-u&lt;a href="https://hugovk.github.io/python2-progress-bar/"&gt;nder a year left for Python 2&lt;/a&gt;, here&amp;rsquo;s
-some statistics showing how much different Python versions have been used over the past
-three years.&lt;/p&gt;
+u&lt;a href="https://hugovk.dev/python2-progress-bar/"&gt;nder a year left for Python 2&lt;/a&gt;, here&amp;rsquo;s some
+statistics showing how much different Python versions have been used over the past three
+years.&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s the pip installs for all packages from the
 &lt;a href="https://pypi.org/"&gt;Python Package Index (PyPI)&lt;/a&gt;, between January 2016 and December
 2018:&lt;/p&gt;

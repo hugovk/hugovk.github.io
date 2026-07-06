@@ -254,8 +254,8 @@ ecosystem.&lt;/p&gt;
 streamline core development tasks&lt;/li&gt;
 &lt;li&gt;Maintenance and improvement of &lt;a href="http://peps.python.org/"&gt;PEP&lt;/a&gt; editing infrastructure
 and related documentation tools&lt;/li&gt;
-&lt;li&gt;Automation and &lt;a href="https://hugovk.github.io/dashboard/"&gt;dashboard&lt;/a&gt; creation for triage
-scripts to assist other contributors&lt;/li&gt;
+&lt;li&gt;Automation and &lt;a href="https://hugovk.dev/dashboard/"&gt;dashboard&lt;/a&gt; creation for triage scripts
+to assist other contributors&lt;/li&gt;
 &lt;li&gt;Process and workflow improvements for CI and core contributor environments&lt;/li&gt;
 &lt;li&gt;Ongoing documentation enhancements, including hosting monthly
 &lt;a href="https://docs-community.readthedocs.io/en/latest/"&gt;Documentation Working Group&lt;/a&gt;

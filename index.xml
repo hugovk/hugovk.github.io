@@ -1327,9 +1327,9 @@ and congratulations to the new Python Steering Council!&lt;/p&gt;
 three years&amp;rsquo; service each.&lt;/p&gt;
 &lt;p&gt;Three are starting their sixth terms, and four members have been or are
 &lt;a href="https://devguide.python.org/versions/"&gt;release managers&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://hugovk.github.io/python-steering-council/"&gt;chart above&lt;/a&gt; only covers the
-Steering Council years. Let&amp;rsquo;s also not forget Guido van Rossum&amp;rsquo;s
-&lt;a href="https://hugovk.github.io/python-steering-council/bdfl.html"&gt;BDFL years&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://hugovk.dev/python-steering-council/"&gt;chart above&lt;/a&gt; only covers the Steering
+Council years. Let&amp;rsquo;s also not forget Guido van Rossum&amp;rsquo;s
+&lt;a href="https://hugovk.dev/python-steering-council/bdfl.html"&gt;BDFL years&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -3815,8 +3815,8 @@ for more info.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="please-test" class="relative group"&gt;Please test! &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#please-test" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;For free-threaded Python to succeed and become the default, it&amp;rsquo;s essential there is
 ecosystem and community support. Library maintainers: please test it and where needed,
 adapt your code, and publish
-&lt;a href="https://hugovk.github.io/free-threaded-wheels/"&gt;free-threaded wheels&lt;/a&gt; so others can
-test &lt;em&gt;their&lt;/em&gt; code that depends on &lt;em&gt;yours&lt;/em&gt;. Everyone else: please test your code too!&lt;/p&gt;
+&lt;a href="https://hugovk.dev/free-threaded-wheels/"&gt;free-threaded wheels&lt;/a&gt; so others can test
+&lt;em&gt;their&lt;/em&gt; code that depends on &lt;em&gt;yours&lt;/em&gt;. Everyone else: please test your code too!&lt;/p&gt;
 &lt;h2 id="see-also" class="relative group"&gt;See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="../../2023/help-us-test-free-threaded-python-without-the-gil/"&gt;Help us test free-threaded Python without the GIL&lt;/a&gt;
 for other ways to test and how to check your build&lt;/li&gt;
@@ -3997,8 +3997,8 @@ ecosystem.&lt;/p&gt;
 streamline core development tasks&lt;/li&gt;
 &lt;li&gt;Maintenance and improvement of &lt;a href="http://peps.python.org/"&gt;PEP&lt;/a&gt; editing infrastructure
 and related documentation tools&lt;/li&gt;
-&lt;li&gt;Automation and &lt;a href="https://hugovk.github.io/dashboard/"&gt;dashboard&lt;/a&gt; creation for triage
-scripts to assist other contributors&lt;/li&gt;
+&lt;li&gt;Automation and &lt;a href="https://hugovk.dev/dashboard/"&gt;dashboard&lt;/a&gt; creation for triage scripts
+to assist other contributors&lt;/li&gt;
 &lt;li&gt;Process and workflow improvements for CI and core contributor environments&lt;/li&gt;
 &lt;li&gt;Ongoing documentation enhancements, including hosting monthly
 &lt;a href="https://docs-community.readthedocs.io/en/latest/"&gt;Documentation Working Group&lt;/a&gt;
@@ -4394,8 +4394,8 @@ You need a Google account and credentials, and Google gives 1 TiB of free quota 
 month.&lt;/p&gt;
 &lt;p&gt;Each month, I have automation to fetch the download numbers for the 8,000 most popular
 packages over the past 30 days, and make it available as more accessible JSON and CSV
-files at &lt;a href="https://hugovk.github.io/top-pypi-packages/"&gt;Top PyPI Packages&lt;/a&gt;. This data is
-&lt;a href="https://hugovk.github.io/top-pypi-packages/#users"&gt;widely used&lt;/a&gt; for
+files at &lt;a href="https://hugovk.dev/top-pypi-packages/"&gt;Top PyPI Packages&lt;/a&gt;. This data is
+&lt;a href="https://hugovk.dev/top-pypi-packages/#users"&gt;widely used&lt;/a&gt; for
 &lt;a href="https://github.com/hugovk/top-pypi-packages/issues/23"&gt;research in academia and industry&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;However, as more packages and releases are uploaded to PyPI, and there are more and more
 downloads logged, the amount of billed data increases too.&lt;/p&gt;
@@ -6742,7 +6742,7 @@ version (at least 3.8, but preferably 3.11):&lt;/p&gt;
 
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;center&gt;&lt;small&gt;Source: &lt;a href="https://hugovk.github.io/pypi-tools/charts.html"&gt;pypi-tools&lt;/a&gt;&lt;/small&gt;&lt;/center&gt;
+&lt;center&gt;&lt;small&gt;Source: &lt;a href="https://hugovk.dev/pypi-tools/charts.html"&gt;pypi-tools&lt;/a&gt;&lt;/small&gt;&lt;/center&gt;
 &lt;p&gt;But why does such an old Python version have so many downloads?&lt;/p&gt;
 &lt;h2 id="all-downloads" class="relative group"&gt;All downloads &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#all-downloads" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Let&amp;rsquo;s dig into the numbers using a handy tool called
 &lt;a href="https://github.com/ofek/pypinfo"&gt;pypinfo&lt;/a&gt;, which helps us analyse the
@@ -8392,7 +8392,7 @@ and &lt;a href="https://cheapbotstootsweet.com/"&gt;Cheap Bots, Toot Sweet!&lt;/
 &lt;p&gt;Enjoy!&lt;/p&gt;</description></item><item><title>How to search 5,000 Python projects</title><link>https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/</link><pubDate>Fri, 09 Dec 2022 12:44:21 +0000</pubDate><guid>https://hugovk.dev/blog/2022/how-to-search-5000-python-projects/</guid><description>&lt;h2 id="why" class="relative group"&gt;Why? &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#why" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Often Python core developers think about deprecating and removing old bits of the
 language. But first it&amp;rsquo;s a good idea to get an idea of how much the old bits are used.
 Searching the
-&lt;a href="https://hugovk.github.io/top-pypi-packages/"&gt;5,000 most-popular projects on PyPI&lt;/a&gt; is a
+&lt;a href="https://hugovk.dev/top-pypi-packages/"&gt;5,000 most-popular projects on PyPI&lt;/a&gt; is a
 helpful proxy to gauge community use.&lt;/p&gt;
 &lt;h2 id="how" class="relative group"&gt;How? &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Core developer &lt;a href="https://vstinner.readthedocs.io/"&gt;Victor Stinner&lt;/a&gt; has written a couple
 of useful scripts that live in his &lt;a href="https://github.com/vstinner/misc"&gt;misc&lt;/a&gt; repo.&lt;/p&gt;
@@ -8729,8 +8729,8 @@ prepare.&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Header photo:
 &lt;a href="https://en.wikipedia.org/wiki/Uppland_Runic_Inscription_53"&gt;Uppland Runic Inscription 53&lt;/a&gt;,
 a 1,000 year old runestone in the old town of Stockholm
-(&lt;a href="https://www.flickr.com/photos/hugovk/3490246425/"&gt;source&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;</description></item><item><title>Top PyPI Packages</title><link>https://hugovk.dev/blog/2022/top-pypi-packages/</link><pubDate>Sun, 29 May 2022 15:53:36 +0000</pubDate><guid>https://hugovk.dev/blog/2022/top-pypi-packages/</guid><description>&lt;p&gt;&lt;a href="https://hugovk.github.io/top-pypi-packages/"&gt;Top PyPI Packages&lt;/a&gt; is a website that
-creates a monthly dump of the 5,000 most-downloaded packages from the
+(&lt;a href="https://www.flickr.com/photos/hugovk/3490246425/"&gt;source&lt;/a&gt;)&lt;/small&gt;&lt;/p&gt;</description></item><item><title>Top PyPI Packages</title><link>https://hugovk.dev/blog/2022/top-pypi-packages/</link><pubDate>Sun, 29 May 2022 15:53:36 +0000</pubDate><guid>https://hugovk.dev/blog/2022/top-pypi-packages/</guid><description>&lt;p&gt;&lt;a href="https://hugovk.dev/top-pypi-packages/"&gt;Top PyPI Packages&lt;/a&gt; is a website that creates a
+monthly dump of the 5,000 most-downloaded packages from the
 &lt;a href="https://pypi.org/"&gt;Python Package Index (PyPI)&lt;/a&gt;. It provides a human-readable list and
 a machine-readable JSON file for programmatic use.&lt;/p&gt;
 &lt;h2 id="how-its-used" class="relative group"&gt;How it&amp;rsquo;s used &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how-its-used" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;The generated data is important for the Python community: it has been cited by many
@@ -8781,10 +8781,10 @@ creates &lt;a href="https://github.com/hugovk/top-pypi-packages/releases"&gt;a r
 &lt;p&gt;This then creates a
 &lt;a href="https://zenodo.org/badge/latestdoi/116806538"&gt;Digital Object Identifier (DOI) at Zenodo&lt;/a&gt;
 to help make it citable for researchers.&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://hugovk.github.io/top-pypi-packages/"&gt;website&lt;/a&gt;, on GitHub Pages, reads in
-the generated JSON file and shows the top 100 (or 1,000 or 5,000) packages in
-human-readable form. It&amp;rsquo;s based on &lt;a href="https://pythonwheels.com"&gt;Python Wheels&lt;/a&gt;, which in
-nice circular fashion, uses the JSON data from this project.&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://hugovk.dev/top-pypi-packages/"&gt;website&lt;/a&gt;, on GitHub Pages, reads in the
+generated JSON file and shows the top 100 (or 1,000 or 5,000) packages in human-readable
+form. It&amp;rsquo;s based on &lt;a href="https://pythonwheels.com"&gt;Python Wheels&lt;/a&gt;, which in nice circular
+fashion, uses the JSON data from this project.&lt;/p&gt;
 &lt;h2 id="thanks" class="relative group"&gt;Thanks &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thanks" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Thanks to &lt;a href="https://pypi.org/"&gt;PyPI&lt;/a&gt; and
 &lt;a href="https://cloud.google.com/bigquery/"&gt;Google BigQuery&lt;/a&gt; for the data;
 &lt;a href="https://github.com/ofek/pypinfo"&gt;pypinfo&lt;/a&gt; and &lt;a href="https://stedolan.github.io/jq/"&gt;jq&lt;/a&gt; for
@@ -10176,9 +10176,9 @@ from PyPI Stats&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Python version share over time, 3</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-3/</link><pubDate>Tue, 01 Jan 2019 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-3/</guid><description>&lt;h2 id="january-2016--december-2018" class="relative group"&gt;January 2016 — December 2018 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--december-2018" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;To celebrate the release of
 &lt;a href="https://www.python.org/downloads/release/python-372/"&gt;Python 3.7.2&lt;/a&gt; on
 &lt;a href="https://peps.python.org/pep-0537/"&gt;Christmas Eve 2018&lt;/a&gt;, and with
-u&lt;a href="https://hugovk.github.io/python2-progress-bar/"&gt;nder a year left for Python 2&lt;/a&gt;, here&amp;rsquo;s
-some statistics showing how much different Python versions have been used over the past
-three years.&lt;/p&gt;
+u&lt;a href="https://hugovk.dev/python2-progress-bar/"&gt;nder a year left for Python 2&lt;/a&gt;, here&amp;rsquo;s some
+statistics showing how much different Python versions have been used over the past three
+years.&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s the pip installs for all packages from the
 &lt;a href="https://pypi.org/"&gt;Python Package Index (PyPI)&lt;/a&gt;, between January 2016 and December
 2018:&lt;/p&gt;

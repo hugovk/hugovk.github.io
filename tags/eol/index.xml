@@ -130,7 +130,7 @@ version (at least 3.8, but preferably 3.11):&lt;/p&gt;
 
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;center&gt;&lt;small&gt;Source: &lt;a href="https://hugovk.github.io/pypi-tools/charts.html"&gt;pypi-tools&lt;/a&gt;&lt;/small&gt;&lt;/center&gt;
+&lt;center&gt;&lt;small&gt;Source: &lt;a href="https://hugovk.dev/pypi-tools/charts.html"&gt;pypi-tools&lt;/a&gt;&lt;/small&gt;&lt;/center&gt;
 &lt;p&gt;But why does such an old Python version have so many downloads?&lt;/p&gt;
 &lt;h2 id="all-downloads" class="relative group"&gt;All downloads &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#all-downloads" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Let&amp;rsquo;s dig into the numbers using a handy tool called
 &lt;a href="https://github.com/ofek/pypinfo"&gt;pypinfo&lt;/a&gt;, which helps us analyse the

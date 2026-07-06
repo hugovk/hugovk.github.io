@@ -4,8 +4,8 @@ You need a Google account and credentials, and Google gives 1 TiB of free quota 
 month.&lt;/p&gt;
 &lt;p&gt;Each month, I have automation to fetch the download numbers for the 8,000 most popular
 packages over the past 30 days, and make it available as more accessible JSON and CSV
-files at &lt;a href="https://hugovk.github.io/top-pypi-packages/"&gt;Top PyPI Packages&lt;/a&gt;. This data is
-&lt;a href="https://hugovk.github.io/top-pypi-packages/#users"&gt;widely used&lt;/a&gt; for
+files at &lt;a href="https://hugovk.dev/top-pypi-packages/"&gt;Top PyPI Packages&lt;/a&gt;. This data is
+&lt;a href="https://hugovk.dev/top-pypi-packages/#users"&gt;widely used&lt;/a&gt; for
 &lt;a href="https://github.com/hugovk/top-pypi-packages/issues/23"&gt;research in academia and industry&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;However, as more packages and releases are uploaded to PyPI, and there are more and more
 downloads logged, the amount of billed data increases too.&lt;/p&gt;

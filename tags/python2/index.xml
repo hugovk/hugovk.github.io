@@ -1314,9 +1314,9 @@ from PyPI Stats&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Python version share over time, 3</title><link>https://hugovk.dev/blog/2019/python-version-share-over-time-3/</link><pubDate>Tue, 01 Jan 2019 14:40:48 +0000</pubDate><guid>https://hugovk.dev/blog/2019/python-version-share-over-time-3/</guid><description>&lt;h2 id="january-2016--december-2018" class="relative group"&gt;January 2016 — December 2018 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#january-2016--december-2018" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;To celebrate the release of
 &lt;a href="https://www.python.org/downloads/release/python-372/"&gt;Python 3.7.2&lt;/a&gt; on
 &lt;a href="https://peps.python.org/pep-0537/"&gt;Christmas Eve 2018&lt;/a&gt;, and with
-u&lt;a href="https://hugovk.github.io/python2-progress-bar/"&gt;nder a year left for Python 2&lt;/a&gt;, here&amp;rsquo;s
-some statistics showing how much different Python versions have been used over the past
-three years.&lt;/p&gt;
+u&lt;a href="https://hugovk.dev/python2-progress-bar/"&gt;nder a year left for Python 2&lt;/a&gt;, here&amp;rsquo;s some
+statistics showing how much different Python versions have been used over the past three
+years.&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s the pip installs for all packages from the
 &lt;a href="https://pypi.org/"&gt;Python Package Index (PyPI)&lt;/a&gt;, between January 2016 and December
 2018:&lt;/p&gt;
