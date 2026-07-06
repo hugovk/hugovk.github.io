@@ -18,7 +18,7 @@ version (at least 3.8, but preferably 3.11):
 
 ![Python download share over time](fkoa8vurrwrj71jde2f3.png)
 
-<center><small>Source: <a href="https://hugovk.github.io/pypi-tools/charts.html">pypi-tools</a></small></center>
+<center><small>Source: <a href="https://hugovk.dev/pypi-tools/charts.html">pypi-tools</a></small></center>
 
 But why does such an old Python version have so many downloads?
 

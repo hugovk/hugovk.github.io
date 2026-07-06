@@ -10,9 +10,9 @@ thumbnail: "pypi.png"
 To celebrate the release of
 [Python 3.7.2](https://www.python.org/downloads/release/python-372/) on
 [Christmas Eve 2018](https://peps.python.org/pep-0537/), and with
-u[nder a year left for Python 2](https://hugovk.github.io/python2-progress-bar/), here's
-some statistics showing how much different Python versions have been used over the past
-three years.
+u[nder a year left for Python 2](https://hugovk.dev/python2-progress-bar/), here's some
+statistics showing how much different Python versions have been used over the past three
+years.
 
 Here's the pip installs for all packages from the
 [Python Package Index (PyPI)](https://pypi.org/), between January 2016 and December

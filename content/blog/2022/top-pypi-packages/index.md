@@ -4,8 +4,8 @@ date: "2022-05-29T15:53:36.289Z"
 tags: ["python", "data", "json", "automation"]
 ---
 
-[Top PyPI Packages](https://hugovk.github.io/top-pypi-packages/) is a website that
-creates a monthly dump of the 5,000 most-downloaded packages from the
+[Top PyPI Packages](https://hugovk.dev/top-pypi-packages/) is a website that creates a
+monthly dump of the 5,000 most-downloaded packages from the
 [Python Package Index (PyPI)](https://pypi.org/). It provides a human-readable list and
 a machine-readable JSON file for programmatic use.
 
@@ -87,10 +87,10 @@ This then creates a
 [Digital Object Identifier (DOI) at Zenodo](https://zenodo.org/badge/latestdoi/116806538)
 to help make it citable for researchers.
 
-The [website](https://hugovk.github.io/top-pypi-packages/), on GitHub Pages, reads in
-the generated JSON file and shows the top 100 (or 1,000 or 5,000) packages in
-human-readable form. It's based on [Python Wheels](https://pythonwheels.com), which in
-nice circular fashion, uses the JSON data from this project.
+The [website](https://hugovk.dev/top-pypi-packages/), on GitHub Pages, reads in the
+generated JSON file and shows the top 100 (or 1,000 or 5,000) packages in human-readable
+form. It's based on [Python Wheels](https://pythonwheels.com), which in nice circular
+fashion, uses the JSON data from this project.
 
 ## Thanks
 

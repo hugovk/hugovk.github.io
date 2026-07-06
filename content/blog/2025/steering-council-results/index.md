@@ -25,8 +25,8 @@ three years' service each.
 Three are starting their sixth terms, and four members have been or are
 [release managers](https://devguide.python.org/versions/).
 
-The [chart above](https://hugovk.github.io/python-steering-council/) only covers the
-Steering Council years. Let's also not forget Guido van Rossum's
-[BDFL years](https://hugovk.github.io/python-steering-council/bdfl.html):
+The [chart above](https://hugovk.dev/python-steering-council/) only covers the Steering
+Council years. Let's also not forget Guido van Rossum's
+[BDFL years](https://hugovk.dev/python-steering-council/bdfl.html):
 
 ![The same chart but including Guido's 28 year stint as BDFL.](bdfl.png)

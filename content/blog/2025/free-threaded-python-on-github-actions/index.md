@@ -184,8 +184,8 @@ With the `freethreaded` variable:
 For free-threaded Python to succeed and become the default, it's essential there is
 ecosystem and community support. Library maintainers: please test it and where needed,
 adapt your code, and publish
-[free-threaded wheels](https://hugovk.github.io/free-threaded-wheels/) so others can
-test _their_ code that depends on _yours_. Everyone else: please test your code too!
+[free-threaded wheels](https://hugovk.dev/free-threaded-wheels/) so others can test
+_their_ code that depends on _yours_. Everyone else: please test your code too!
 
 ## See also
 

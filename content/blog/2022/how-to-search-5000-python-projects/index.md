@@ -9,7 +9,7 @@ tags: ["python", "search", "pypi", "deprecation"]
 Often Python core developers think about deprecating and removing old bits of the
 language. But first it's a good idea to get an idea of how much the old bits are used.
 Searching the
-[5,000 most-popular projects on PyPI](https://hugovk.github.io/top-pypi-packages/) is a
+[5,000 most-popular projects on PyPI](https://hugovk.dev/top-pypi-packages/) is a
 helpful proxy to gauge community use.
 
 ## How?

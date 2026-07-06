@@ -53,8 +53,8 @@ Tasks include:
   streamline core development tasks
 - Maintenance and improvement of [PEP](http://peps.python.org/) editing infrastructure
   and related documentation tools
-- Automation and [dashboard](https://hugovk.github.io/dashboard/) creation for triage
-  scripts to assist other contributors
+- Automation and [dashboard](https://hugovk.dev/dashboard/) creation for triage scripts
+  to assist other contributors
 - Process and workflow improvements for CI and core contributor environments
 - Ongoing documentation enhancements, including hosting monthly
   [Documentation Working Group](https://docs-community.readthedocs.io/en/latest/)

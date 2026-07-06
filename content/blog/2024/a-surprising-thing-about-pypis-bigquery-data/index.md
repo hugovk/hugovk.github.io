@@ -11,8 +11,8 @@ month.
 
 Each month, I have automation to fetch the download numbers for the 8,000 most popular
 packages over the past 30 days, and make it available as more accessible JSON and CSV
-files at [Top PyPI Packages](https://hugovk.github.io/top-pypi-packages/). This data is
-[widely used](https://hugovk.github.io/top-pypi-packages/#users) for
+files at [Top PyPI Packages](https://hugovk.dev/top-pypi-packages/). This data is
+[widely used](https://hugovk.dev/top-pypi-packages/#users) for
 [research in academia and industry](https://github.com/hugovk/top-pypi-packages/issues/23).
 
 However, as more packages and releases are uploaded to PyPI, and there are more and more
