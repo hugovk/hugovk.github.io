@@ -83,7 +83,7 @@ And [Thomas Wouters](https://social.coop/@Yhg1s) gave a fun session of his
 
 Python/tech t-shirt census:
 
-- Python ~2~3.7, Menlo Park 201~6~7 core sprint (Carl)
+- Python ~~2~~3.7, Menlo Park 201~~6~~7 core sprint (Carl)
 - [PyCon Italia 2025](https://2025.pycon.it/en) (Antonio)
 - Python 3.14 pie (Hugo)
 - [WHY 2025](https://why2025.org/) (Thomas)
