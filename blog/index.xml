@@ -1,4 +1,189 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Hugo van Kemenade</title><link>https://hugovk.dev/blog/</link><description>Recent content in Blog on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Fri, 12 Jun 2026 07:35:12 +0000</lastBuildDate><atom:link href="https://hugovk.dev/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>I'm delighted to rejoin the Sovereign Tech Fellowship</title><link>https://hugovk.dev/blog/2026/sovereign-tech-fellowship/</link><pubDate>Fri, 12 Jun 2026 07:35:12 +0000</pubDate><guid>https://hugovk.dev/blog/2026/sovereign-tech-fellowship/</guid><description>&lt;p&gt;I&amp;rsquo;m happy to rejoin the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Hugo van Kemenade</title><link>https://hugovk.dev/blog/</link><description>Recent content in Blog on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Wed, 08 Jul 2026 16:40:05 +0000</lastBuildDate><atom:link href="https://hugovk.dev/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Fixing the dictionary with Python 3.14</title><link>https://hugovk.dev/blog/2026/fixing-dict/</link><pubDate>Wed, 08 Jul 2026 16:40:05 +0000</pubDate><guid>https://hugovk.dev/blog/2026/fixing-dict/</guid><description>&lt;p&gt;Yes, but not the
+&lt;a href="https://docs.python.org/3/library/stdtypes.html#mapping-types-dict"&gt;&lt;code&gt;dict&lt;/code&gt;&lt;/a&gt; kind of
+dictionary.&lt;/p&gt;
+&lt;p&gt;When working on CPython, we often find obscure bugs elsewhere, in compilers, operating
+systems and elsewhere:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://emmatyping.dev/finding-a-miscompilation-in-rustllvm.html"&gt;Rust/LLVM&lt;/a&gt;,
+&lt;a href="https://github.com/llvm/llvm-project/issues/106846"&gt;clang-19&lt;/a&gt;,
+&lt;a href="https://github.com/llvm/llvm-project/issues/179695"&gt;clang 21&lt;/a&gt; and
+&lt;a href="https://github.com/llvm/llvm-project/pull/120267"&gt;BOLT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/python/cpython/issues/129987#issuecomment-2761279236"&gt;GCC 13&lt;/a&gt;,
+&lt;a href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=118430"&gt;GCC 15&lt;/a&gt;,
+&lt;a href="https://github.com/python/cpython/issues/127000"&gt;glibc&lt;/a&gt;,
+&lt;a href="https://github.com/python/cpython/issues/122431"&gt;readline&lt;/a&gt; and
+&lt;a href="https://github.com/python/cpython/issues/120378"&gt;curses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/python/cpython/issues/131032"&gt;musl fma&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Since Python 3.8, the release notes have a section called &amp;ldquo;And now for something
+completely different&amp;rdquo;. These have included Monty Python sketches, astrophysics facts and
+poetry.&lt;/p&gt;
+&lt;p&gt;For Python 3.14, I&amp;rsquo;m doing all things
+&lt;a href="https://discuss.python.org/t/python-3-14-0-final-is-here/104210?u=hugovk#p-273519-and-now-for-something-completely-different-9"&gt;&lt;em&gt;π&lt;/em&gt;&lt;/a&gt;,
+&lt;a href="https://discuss.python.org/t/python-3-14-0-alpha-3/74542?u=hugovk#p-214989-and-now-for-something-completely-different-3"&gt;pie&lt;/a&gt;
+and
+&lt;a href="https://discuss.python.org/t/python-3-14-0rc2-and-3-13-7-are-go/102403?u=hugovk#p-267064-and-now-for-something-completely-different-13"&gt;[mag]pie&lt;/a&gt;
+(&lt;a href="../../2025/and-now/"&gt;more here&lt;/a&gt;). As part of the research for this important task, I
+looked up &lt;em&gt;pi&lt;/em&gt; in the
+&lt;a href="https://www.oed.com/dictionary/pi_n1?tab=factsheet&amp;amp;tl=true#30481837"&gt;&lt;em&gt;Oxford English Dictionary&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As we all recall from the
+&lt;a href="https://discuss.python.org/t/python-3-14-0-beta-1-is-here/91117#p-246172-and-now-for-something-completely-different-8"&gt;Python 3.14.0b1 release notes&lt;/a&gt;,
+William Jones was the first person to use the &lt;em&gt;π&lt;/em&gt; symbol to denote the circle&amp;rsquo;s
+circumference to its diameter in his
+&lt;a href="https://archive.org/details/SynopsisPalmariorumMatheseosOrANewIntroductionToTheMathematics/page/n283/mode/1up?view=theater"&gt;&lt;em&gt;Synopsis Palmariorum Matheseos&lt;/em&gt;&lt;/a&gt;
+(1706):&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+ 
+ 
+&lt;figure&gt;&lt;img src="Synopsis_Palmariorum_Matheseos_pi.jpg" alt="In the Circle, the Diameter is to Circumference as 1 to 16/5 - 4/239 - 1/3 15/(53) - 4/(2393) &amp;#43; 1/5 16/(55) - 4/(2395) -, &amp;amp;c. = 3.1459, &amp;amp;c. = π. This Series..I receiv&amp;rsquo;d from the Excellent Analyst..Mr. John Machin; and by means thereof, Van Ceulen&amp;rsquo;s Number..may be Examin&amp;rsquo;d." class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;However, the &lt;em&gt;OED&lt;/em&gt;&amp;rsquo;s first citation had a markup bug:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2026/fixing-dict/broken-pi_hu_44174aaf24a4d1af.webp 330w,https://hugovk.dev/blog/2026/fixing-dict/broken-pi_hu_a712234b96493cb4.webp 660w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/fixing-dict/broken-pi_hu_fb4f5f8e45f4cc9e.webp 824w
+ 
+ 
+ 
+ 
+ ,https://hugovk.dev/blog/2026/fixing-dict/broken-pi_hu_fb4f5f8e45f4cc9e.webp 824w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="824"
+ height="249"
+ class="mx-auto my-0 rounded-md"
+ alt="As previous image, but: 1 to Misplaced &amp;amp;, where Misplaced and the ampersand are red on yellow background"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2026/fixing-dict/broken-pi_hu_3c12ffb5d11aad82.png" srcset="https://hugovk.dev/blog/2026/fixing-dict/broken-pi_hu_d8ba9f149a59ce4d.png 330w,https://hugovk.dev/blog/2026/fixing-dict/broken-pi_hu_3c12ffb5d11aad82.png 660w
+ 
+ ,https://hugovk.dev/blog/2026/fixing-dict/broken-pi.png 824w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/fixing-dict/broken-pi.png 824w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I duly reported this to the &lt;em&gt;OED&lt;/em&gt; in July 2024; and by the next time I looked it up, in
+June 2025, it was fixed!&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2026/fixing-dict/fixed-pi_hu_6dd1cb572fd33cb0.webp 330w,https://hugovk.dev/blog/2026/fixing-dict/fixed-pi_hu_3b32cbdfcf05cfe0.webp 660w
+ 
+ ,https://hugovk.dev/blog/2026/fixing-dict/fixed-pi_hu_cf34297d1d41c5d9.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/fixing-dict/fixed-pi_hu_5296bebf8734feb7.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="1704"
+ height="584"
+ class="mx-auto my-0 rounded-md"
+ alt="As previous image, but the sequence is now fixed"
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2026/fixing-dict/fixed-pi_hu_c3d86b566f46681c.png" srcset="https://hugovk.dev/blog/2026/fixing-dict/fixed-pi_hu_f4ebb5f3173af471.png 330w,https://hugovk.dev/blog/2026/fixing-dict/fixed-pi_hu_c3d86b566f46681c.png 660w
+ 
+ ,https://hugovk.dev/blog/2026/fixing-dict/fixed-pi_hu_21ed4e8a433d2289.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/fixing-dict/fixed-pi_hu_ba058c1f4cef57c.png 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Hooray!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;small&gt;Header photo: Part of the definition for &amp;ldquo;get&amp;rdquo; in the &lt;em&gt;OED&lt;/em&gt;&amp;rsquo;s 1901 forerunner, &lt;em&gt;A
+New English Dictionary on Historical Principles&lt;/em&gt;
+(&lt;a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/2.0/"&gt;CC
+BY-NC-SA 2.0&lt;/a&gt;
+&lt;a href="https://www.flickr.com/photos/hugovk/8192259573"&gt;Hugo van Kemenade&lt;/a&gt;).&lt;/small&gt;&lt;/p&gt;</description></item><item><title>I'm delighted to rejoin the Sovereign Tech Fellowship</title><link>https://hugovk.dev/blog/2026/sovereign-tech-fellowship/</link><pubDate>Fri, 12 Jun 2026 07:35:12 +0000</pubDate><guid>https://hugovk.dev/blog/2026/sovereign-tech-fellowship/</guid><description>&lt;p&gt;I&amp;rsquo;m happy to rejoin the
 &lt;a href="https://www.sovereign.tech/programs/fellowship"&gt;Sovereign Tech Fellowship&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;I was one of six participants in the
 &lt;a href="../../2025/im-excited-to-join-the-sovereign-tech-fellowship/"&gt;2025 pilot&lt;/a&gt; to pay
