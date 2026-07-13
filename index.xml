@@ -1,4 +1,230 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo van Kemenade</title><link>https://hugovk.dev/</link><description>Recent content on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Wed, 08 Jul 2026 16:40:05 +0000</lastBuildDate><atom:link href="https://hugovk.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Fixing the dictionary with Python 3.14</title><link>https://hugovk.dev/blog/2026/fixing-dict/</link><pubDate>Wed, 08 Jul 2026 16:40:05 +0000</pubDate><guid>https://hugovk.dev/blog/2026/fixing-dict/</guid><description>&lt;p&gt;Yes, but not the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo van Kemenade</title><link>https://hugovk.dev/</link><description>Recent content on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Mon, 13 Jul 2026 20:44:50 +0000</lastBuildDate><atom:link href="https://hugovk.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Security: line goes up</title><link>https://hugovk.dev/blog/2026/security-line-goes-up/</link><pubDate>Mon, 13 Jul 2026 20:44:50 +0000</pubDate><guid>https://hugovk.dev/blog/2026/security-line-goes-up/</guid><description>&lt;p&gt;Like many other projects, CPython is experiencing a huge increase in security reports.&lt;/p&gt;
+&lt;h2 id="cves-per-year" class="relative group"&gt;CVEs per year &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#cves-per-year" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Last month, PSF Security Developer-in-Residence &lt;a href="https://sethmlarson.dev/"&gt;Seth Larson&lt;/a&gt;
+posted a chart of
+&lt;a href="https://mastodon.social/@sethmlarson/116680835974208152"&gt;CVEs per year&lt;/a&gt;, showing a
+large increase in 2026:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2026/security-line-goes-up/cves-per-year_hu_46eaec89582d04c1.webp 330w,https://hugovk.dev/blog/2026/security-line-goes-up/cves-per-year_hu_db185073a5efff9b.webp 660w
+ 
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/cves-per-year_hu_26459e66135505d0.webp 1024w
+ 
+ 
+ 
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/cves-per-year_hu_893642da8a1f9460.webp 1257w
+ 
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="1257"
+ height="705"
+ class="mx-auto my-0 rounded-md"
+ alt="2007-2024 all below 20 per year. 2025 and year-to-date 2026 had just over 20, with 2026 extrapolated to around 65."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2026/security-line-goes-up/cves-per-year_hu_2601403f38fe525a.png" srcset="https://hugovk.dev/blog/2026/security-line-goes-up/cves-per-year_hu_4fadb0136dac3618.png 330w,https://hugovk.dev/blog/2026/security-line-goes-up/cves-per-year_hu_2601403f38fe525a.png 660w
+ 
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/cves-per-year_hu_dc377bf619c7de4.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/cves-per-year.png 1257w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;But this only represents the &lt;em&gt;output&lt;/em&gt; of security work, and doesn&amp;rsquo;t show all the work
+dealing with incoming reports. Many are closed and dealt with as non-security bug
+reports instead; many are closed as neither security nor bug reports.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s reveal some of this unseen work by the
+&lt;a href="https://devguide.python.org/security/psrt/"&gt;Python Security Response Team&lt;/a&gt; (PSRT).&lt;/p&gt;
+&lt;h2 id="ghsas-by-month" class="relative group"&gt;GHSAs by month &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#ghsas-by-month" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Here are the number of incoming GitHub Security Advisories (GHSA) reports created since
+July 2024:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_fa6bba1498f0d631.webp 330w,https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_4feb12a20d2b059a.webp 660w
+ 
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_331214cef87ddc0f.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_3237be4c8e92a1a5.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="2100"
+ height="900"
+ class="mx-auto my-0 rounded-md"
+ alt="Chart of new security reports. Single digits or zero per month from 2024, increasing to around 40 in 2026."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_e0223ff9b32735ff.png" srcset="https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_d83bb7f01ae34372.png 330w,https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_e0223ff9b32735ff.png 660w
+ 
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_1871b5c920562091.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_a51eb091c2fc1770.png 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="ghsas-by-year" class="relative group"&gt;GHSAs by year &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#ghsas-by-year" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Here is the same thing by year, and remembering we&amp;rsquo;re only &lt;em&gt;halfway through 2026&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+&lt;figure&gt;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ &lt;picture
+ class="mx-auto my-0 rounded-md"
+ 
+ &gt;
+ 
+ 
+ 
+ 
+ &lt;source
+ 
+ srcset="https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-year_hu_a5e56e0a0d314d24.webp 330w,https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-year_hu_26f25babbef795a8.webp 660w
+ 
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-year_hu_1674a5eb779a5f7b.webp 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-year_hu_51b6562e0e3de6f7.webp 1320w
+ "
+ 
+ sizes="100vw"
+ type="image/webp"
+ /&gt;
+ 
+ &lt;img
+ width="2100"
+ height="900"
+ class="mx-auto my-0 rounded-md"
+ alt="18 in 2024, 41 in 2025, 175 so far in 2026."
+ loading="lazy" decoding="async"
+ 
+ src="https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-year_hu_fa7a5184a8320d7e.png" srcset="https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-year_hu_63bd8cd56b492976.png 330w,https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-year_hu_fa7a5184a8320d7e.png 660w
+ 
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-year_hu_e984503f866642dc.png 1024w
+ 
+ 
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-year_hu_28493ea9be3ee5ab.png 1320w
+ "
+ sizes="100vw"
+ 
+ /&gt;
+ &lt;/picture&gt;
+ 
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="email-reports-by-month" class="relative group"&gt;Email reports by month &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#email-reports-by-month" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;We&amp;rsquo;ve only fairly recently been
+&lt;a href="https://devguide.python.org/security/policy/"&gt;encouraging new reports&lt;/a&gt; be made via
+GHSA. Before this, they were usually made by email. The next chart is the number of
+email discussions (or threads) and participants by month:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+ 
+ 
+&lt;figure&gt;&lt;img src="psrt.png" alt="Number of discussions and participants per month follow each other closely. Single digits from 2014, around 20 by 2019, 40 by 2021 and 2022, a dip to 15 for 2023 to 2025, up to 50 for 2026 so far." class="mx-auto my-0 rounded-md" /&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="thanks" class="relative group"&gt;Thanks &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thanks" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Big thanks to Seth for all his work as Security Developer-in-Residence: helping shepherd
+all these reports, developing a
+&lt;a href="https://devguide.python.org/security/policy/"&gt;security policy&lt;/a&gt; to improve the quality
+of incoming reports and help us assess them, and defining PSRT membership and
+responsibilities via &lt;a href="https://peps.python.org/pep-0811/"&gt;PEP 811&lt;/a&gt; to build an active
+team. All this would be much harder without his guidance! And thanks to
+&lt;a href="https://alpha-omega.dev/"&gt;Alpha-Omega&lt;/a&gt; for sponsoring his position at the PSF.&lt;/p&gt;</description></item><item><title>Fixing the dictionary with Python 3.14</title><link>https://hugovk.dev/blog/2026/fixing-dict/</link><pubDate>Wed, 08 Jul 2026 16:40:05 +0000</pubDate><guid>https://hugovk.dev/blog/2026/fixing-dict/</guid><description>&lt;p&gt;Yes, but not the
 &lt;a href="https://docs.python.org/3/library/stdtypes.html#mapping-types-dict"&gt;&lt;code&gt;dict&lt;/code&gt;&lt;/a&gt; kind of
 dictionary.&lt;/p&gt;
 &lt;p&gt;When working on CPython, we often find obscure bugs elsewhere, in compilers, operating
