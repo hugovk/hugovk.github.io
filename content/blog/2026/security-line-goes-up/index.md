@@ -2,6 +2,8 @@
 title: "Security: line goes up"
 date: "2026-07-13T20:44:50Z"
 tags: ["python", "PSRT", "security", "GHSA"]
+images: ["ghsas-by-month.png"]
+thumbnail: "ghsas-by-month.png"
 ---
 
 Like many other projects, CPython is experiencing a huge increase in security reports.
@@ -27,7 +29,7 @@ Let's reveal some of this unseen work by the
 Here are the number of incoming GitHub Security Advisories (GHSA) reports created since
 July 2024:
 
-![Chart of new security reports. Single digits or zero per month from 2024, increasing to around 40 in 2026.](thumb.png)
+![Chart of new security reports. Single digits or zero per month from 2024, increasing to around 40 in 2026.](ghsas-by-month.png)
 
 ## GHSAs by year
 
