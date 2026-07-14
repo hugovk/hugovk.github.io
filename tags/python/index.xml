@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Hugo van Kemenade</title><link>https://hugovk.dev/tags/python/</link><description>Recent content in Python on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Mon, 13 Jul 2026 20:44:50 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Security: line goes up</title><link>https://hugovk.dev/blog/2026/security-line-goes-up/</link><pubDate>Mon, 13 Jul 2026 20:44:50 +0000</pubDate><guid>https://hugovk.dev/blog/2026/security-line-goes-up/</guid><description>&lt;p&gt;Like many other projects, CPython is experiencing a huge increase in security reports.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>python on Hugo van Kemenade</title><link>https://hugovk.dev/tags/python/</link><description>Recent content in python on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Mon, 13 Jul 2026 20:44:50 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Security: line goes up</title><link>https://hugovk.dev/blog/2026/security-line-goes-up/</link><pubDate>Mon, 13 Jul 2026 20:44:50 +0000</pubDate><guid>https://hugovk.dev/blog/2026/security-line-goes-up/</guid><description>&lt;p&gt;Like many other projects, CPython is experiencing a huge increase in security reports.&lt;/p&gt;
 &lt;h2 id="cves-per-year" class="relative group"&gt;CVEs per year &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#cves-per-year" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Last month, PSF Security Developer-in-Residence &lt;a href="https://sethmlarson.dev/"&gt;Seth Larson&lt;/a&gt;
 posted a chart of
 &lt;a href="https://mastodon.social/@sethmlarson/116680835974208152"&gt;CVEs per year&lt;/a&gt;, showing a
@@ -103,12 +103,12 @@ July 2024:&lt;/p&gt;
  
  &lt;source
  
- srcset="https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_fa6bba1498f0d631.webp 330w,https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_4feb12a20d2b059a.webp 660w
+ srcset="https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-month_hu_fa6bba1498f0d631.webp 330w,https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-month_hu_4feb12a20d2b059a.webp 660w
  
- ,https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_331214cef87ddc0f.webp 1024w
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-month_hu_331214cef87ddc0f.webp 1024w
  
  
- ,https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_3237be4c8e92a1a5.webp 1320w
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-month_hu_3237be4c8e92a1a5.webp 1320w
  "
  
  sizes="100vw"
@@ -122,12 +122,12 @@ July 2024:&lt;/p&gt;
  alt="Chart of new security reports. Single digits or zero per month from 2024, increasing to around 40 in 2026."
  loading="lazy" decoding="async"
  
- src="https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_e0223ff9b32735ff.png" srcset="https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_d83bb7f01ae34372.png 330w,https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_e0223ff9b32735ff.png 660w
+ src="https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-month_hu_e0223ff9b32735ff.png" srcset="https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-month_hu_d83bb7f01ae34372.png 330w,https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-month_hu_e0223ff9b32735ff.png 660w
  
- ,https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_1871b5c920562091.png 1024w
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-month_hu_1871b5c920562091.png 1024w
  
  
- ,https://hugovk.dev/blog/2026/security-line-goes-up/thumb_hu_a51eb091c2fc1770.png 1320w
+ ,https://hugovk.dev/blog/2026/security-line-goes-up/ghsas-by-month_hu_a51eb091c2fc1770.png 1320w
  "
  sizes="100vw"
  
