@@ -212,61 +212,10 @@ email discussions (or threads) and participants by month:&lt;/p&gt;
 
 
 
-&lt;figure&gt;
- 
- 
-
-
-
-
-
-
-
 
  
- &lt;picture
- class="mx-auto my-0 rounded-md"
  
- &gt;
- 
- 
- 
- 
- &lt;source
- 
- srcset="https://hugovk.dev/blog/2026/security-line-goes-up/psrt_hu_c2b3a2849cd29f7a.webp 330w,https://hugovk.dev/blog/2026/security-line-goes-up/psrt_hu_84729fd62083085.webp 660w
- 
- ,https://hugovk.dev/blog/2026/security-line-goes-up/psrt_hu_e426233e353b8984.webp 1024w
- 
- 
- ,https://hugovk.dev/blog/2026/security-line-goes-up/psrt_hu_a9f5cdb3f343d2f0.webp 1320w
- "
- 
- sizes="100vw"
- type="image/webp"
- /&gt;
- 
- &lt;img
- width="2100"
- height="900"
- class="mx-auto my-0 rounded-md"
- alt="Number of discussions and participants per month follow each other closely. Single digits from 2014, around 20 by 2019, 40 by 2021 and 2022, a dip to 15 for 2023 to 2025, up to 50 for 2026 so far."
- loading="lazy" decoding="async"
- 
- src="https://hugovk.dev/blog/2026/security-line-goes-up/psrt_hu_f73ebb8b42dcf9fe.png" srcset="https://hugovk.dev/blog/2026/security-line-goes-up/psrt_hu_8b675f5b86a37d8c.png 330w,https://hugovk.dev/blog/2026/security-line-goes-up/psrt_hu_f73ebb8b42dcf9fe.png 660w
- 
- ,https://hugovk.dev/blog/2026/security-line-goes-up/psrt_hu_1aab79a15185fdba.png 1024w
- 
- 
- ,https://hugovk.dev/blog/2026/security-line-goes-up/psrt_hu_fd8ff243f0402a1c.png 1320w
- "
- sizes="100vw"
- 
- /&gt;
- &lt;/picture&gt;
- 
-
-
+&lt;figure&gt;&lt;img src="psrt.png" alt="Number of discussions and participants per month follow each other closely. Single digits from 2014, around 20 by 2019, 40 by 2021 and 2022, a dip to 15 for 2023 to 2025, up to 50 for 2026 so far." class="mx-auto my-0 rounded-md" /&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id="thanks" class="relative group"&gt;Thanks &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#thanks" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Big thanks to Seth for all his work as Security Developer-in-Residence: helping shepherd
