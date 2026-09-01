@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ci on Hugo van Kemenade</title><link>https://hugovk.dev/tags/ci/</link><description>Recent content in ci on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Tue, 25 Mar 2025 10:25:00 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/ci/index.xml" rel="self" type="application/rss+xml"/><item><title>Free-threaded Python on GitHub Actions</title><link>https://hugovk.dev/blog/2025/free-threaded-python-on-github-actions/</link><pubDate>Tue, 25 Mar 2025 10:25:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/free-threaded-python-on-github-actions/</guid><description>&lt;p&gt;GitHub Actions now supports &lt;em&gt;experimental&lt;/em&gt; free-threaded CPython!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CI on Hugo van Kemenade</title><link>https://hugovk.dev/tags/ci/</link><description>Recent content in CI on Hugo van Kemenade</description><generator>Hugo</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;{{&lt; icon "cc" &gt;}}&amp;hairsp;{{&lt; icon "cc-by" &gt;}}&amp;hairsp;{{&lt; icon "cc-sa" &gt;}}&lt;/a&gt;&amp;nbsp;Hugo van Kemenade&lt;br&gt;&lt;p class="text-xs text-neutral-500 dark:text-neutral-400"&gt;Powered by &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer"&gt;Congo&lt;/a&gt; &amp;amp; &lt;a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://hugovk.dev" target="_blank" rel="noopener noreferrer"&gt;Hugo&lt;/a&gt;&lt;/p&gt;</copyright><lastBuildDate>Tue, 01 Sep 2026 14:33:38 +0000</lastBuildDate><atom:link href="https://hugovk.dev/tags/ci/index.xml" rel="self" type="application/rss+xml"/><item><title>Help test Python 3.15!</title><link>https://hugovk.dev/blog/2026/help-test-python-315/</link><pubDate>Tue, 01 Sep 2026 14:33:38 +0000</pubDate><guid>https://hugovk.dev/blog/2026/help-test-python-315/</guid><description>&lt;p&gt;Calling all Python library maintainers! 🐍&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;second and final&lt;/em&gt; Python 3.15 release candidate is out! 🎉&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s your last chance to join the cool testers&amp;rsquo; club and say that YOU helped test 3.15
+before the big day on 1st October! 😎&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://peps.python.org/pep-0790/#release-schedule"&gt;PEP 790&lt;/a&gt; defines the release
+schedule for Python 3.15.0:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The first release candidate came out on 4th August 2026&lt;/li&gt;
+&lt;li&gt;The second release candidate came out on 1st September 2026&lt;/li&gt;
+&lt;li&gt;And the full release is set for 1st October 2026&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In his
+&lt;a href="https://discuss.python.org/t/python-3-15-0-candidate-2-is-here/108841/1?u=hugovk"&gt;announcement&lt;/a&gt;,
+Hugo van Kemenade (👋 hi, that&amp;rsquo;s me!), release manager for Python 3.14 and 3.15, gave a
+call to action:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We &lt;em&gt;&lt;strong&gt;strongly encourage&lt;/strong&gt;&lt;/em&gt; maintainers of third-party Python projects to prepare
+their projects for 3.15 during this phase, and publish Python 3.15 wheels on PyPI to
+be ready for the final release of 3.15.0, and to help other projects do their own
+testing. Any binary wheels built against Python 3.15.0 release candidates &lt;em&gt;&lt;strong&gt;will
+work&lt;/strong&gt;&lt;/em&gt; with future versions of Python 3.15. As always, report any issues to
+&lt;a href="https://github.com/python/cpython/issues"&gt;the Python bug tracker&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="test-with-315" class="relative group"&gt;Test with 3.15 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#test-with-315" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;It&amp;rsquo;s now time for us library maintainers to start testing our projects with 3.15.
+There&amp;rsquo;s two big benefits:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;There have been
+&lt;a href="https://docs.python.org/3.15/whatsnew/3.15.html#removed"&gt;removals and changes&lt;/a&gt; in
+Python 3.15. Testing now helps us make our code compatible and avoid any big
+surprises (for us and our users) at the big launch in October.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We might find bugs in Python itself! Reporting those will help get them fixed and
+help everyone.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="how" class="relative group"&gt;How &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#how" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;To test the latest alpha, beta or release candidate on GitHub Actions with
+&lt;a href="https://github.com/actions/setup-python#supported-version-syntax"&gt;actions/setup-python&lt;/a&gt;,
+add &lt;code&gt;3.15&lt;/code&gt; and &lt;code&gt;allow-prereleases: true&lt;/code&gt; to your workflow matrix.&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yml" data-lang="yml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;jobs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;test&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;runs-on&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;ubuntu-latest&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;strategy&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;fail-fast&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;matrix&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;python-version&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;3.11&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;3.12&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;3.13&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;3.14&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;3.15&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;steps&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="nt"&gt;uses&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c"&gt;# v7.0.1&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;Set up Python ${{ matrix.python-version }}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;uses&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c"&gt;# v7.0.0&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;with&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;python-version&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;${{ matrix.python-version }}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;allow-prereleases&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;(We can instead use &lt;code&gt;3.15-dev&lt;/code&gt; and omit &lt;code&gt;allow-prereleases: true&lt;/code&gt;, but I find the above
+a bit neater, and when 3.15.0 final is released in October, it will continue testing
+with full release versions.)&lt;/p&gt;
+&lt;h2 id="when-to-support-315" class="relative group"&gt;When to support 3.15? &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#when-to-support-315" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Now is also a good time to declare support and add the
+&lt;code&gt;Programming Language :: Python :: 3.15&lt;/code&gt;
+&lt;a href="https://pypi.org/classifiers/"&gt;Trove classifier&lt;/a&gt;. Many
+&lt;a href="https://pyreadiness.org/3.15/"&gt;projects already have&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Especially if you have extension modules and other projects depend on yours, a release
+with binary wheels will help them test and prepare.&lt;/p&gt;
+&lt;h3 id="abi-breaks" class="relative group"&gt;ABI breaks? &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#abi-breaks" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;From the announcement:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There will be &lt;em&gt;&lt;strong&gt;no ABI changes&lt;/strong&gt;&lt;/em&gt; from this point forward in the 3.15 series, and the
+goal is that there will be as few code changes as possible.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Let&amp;rsquo;s start testing 3.15 now! 🚀&lt;/p&gt;
+&lt;h2 id="see-also" class="relative group"&gt;See also &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"&gt;&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#see-also" aria-label="Anchor"&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.python.org/3.15/whatsnew/3.15.html"&gt;What’s New In Python 3.15&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;small&gt;Header photo: A woodcut of a crowned snake in the Museo di Palazzo Poggi,
+Bologna, used for Ulisse Aldrovandi&amp;rsquo;s
+&lt;a href="https://archive.org/details/bub_gb_Ul-fTdRAMIwC/page/n371/mode/1up"&gt;&lt;em&gt;Serpentum, et draconum historiæ libri duo&lt;/em&gt; (1640)&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;</description></item><item><title>Free-threaded Python on GitHub Actions</title><link>https://hugovk.dev/blog/2025/free-threaded-python-on-github-actions/</link><pubDate>Tue, 25 Mar 2025 10:25:00 +0000</pubDate><guid>https://hugovk.dev/blog/2025/free-threaded-python-on-github-actions/</guid><description>&lt;p&gt;GitHub Actions now supports &lt;em&gt;experimental&lt;/em&gt; free-threaded CPython!&lt;/p&gt;
 &lt;p&gt;There are three ways to add it to your test matrix:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;actions/setup-python: &lt;code&gt;t&lt;/code&gt; suffix&lt;/li&gt;
