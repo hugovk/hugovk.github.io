@@ -1,7 +1,7 @@
 ---
 title: "Soft-deprecating re.match()"
 date: "2026-09-10T08:08:01Z"
-tags: ["Python", "re", "regex"]
+tags: ["Python", "python3.15", "re", "regex"]
 ---
 
 Quick, without looking it up, what does `re.match()` do? Which of these return a match?

@@ -1,7 +1,7 @@
 ---
 title: "Help test Python 3.15!"
 date: "2026-09-01T14:33:38Z"
-tags: ["python", "testing", "ci", "github-actions"]
+tags: ["Python", "python3.15", "testing", "ci", "github-actions"]
 ---
 
 Calling all Python library maintainers! 🐍
