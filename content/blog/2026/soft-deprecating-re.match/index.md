@@ -123,6 +123,27 @@ Use `re.prefixmatch()` if you only really meant to use the half-anchor; otherwis
 
 The functions without special characters are generally a bit faster.
 
+## Lint
+
+You can avoid `re.match()` in your project with
+[Ruff](https://docs.astral.sh/ruff/rules/banned-api/):
+
+```toml
+# pyproject.toml
+[tool.ruff]
+lint.extend-select = [
+  "TID251", # flake8-tidy-imports: banned-api
+]
+lint.flake8-tidy-imports.banned-api."re.match".msg = "Use re.fullmatch() or re.search() instead"
+```
+
+Or run:
+
+```sh
+ruff check . --isolated --select TID251 \
+  --config 'lint.flake8-tidy-imports.banned-api."re.match".msg = "use re.fullmatch() or re.search() instead"'
+```
+
 ## See also
 
 - Seth Larson: [Use “\A...\z”, not
