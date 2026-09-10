@@ -18,3 +18,7 @@ new title:
 # Print the current time for a post's front matter
 now:
     @date -u +'date: "%Y-%m-%dT%H:%M:%SZ"'
+
+# Compress a JPEG file in place
+compress file quality="85":
+    jpegoptim --max={{ quality }} --strip-all --auto-mode "{{ file }}"
