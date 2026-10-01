@@ -9,4 +9,4 @@ exclude-newer = "7d"
 [tasks]
 
 [dependencies]
-hugo = "0.165.0.*"
+hugo = "0.166.0.*"
