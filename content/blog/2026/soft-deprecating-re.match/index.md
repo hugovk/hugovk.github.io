@@ -146,8 +146,8 @@ ruff check . --isolated --select TID251 \
 
 ## See also
 
-- Seth Larson: [Use “\A...\z”, not
-  “^...$” with Python regular expressions](https://sethmlarson.dev/use-backslash-A-and-z-not-%5E-and-$-with-python-regular-expressions)
+- Seth Larson:
+  [Use “\A...\z”, not “^...$” with Python regular expressions](https://sethmlarson.dev/use-backslash-A-and-z-not-%5E-and-$-with-python-regular-expressions)
 
 ---
 
