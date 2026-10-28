@@ -6,7 +6,7 @@ help:
 
 # Build the site and run a local server
 serve:
-    pixi run hugo server
+    pixi run hugo server --openBrowser
 
 # Create a new blog post
 new title:
