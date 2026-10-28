@@ -15,9 +15,9 @@ new title:
     slug=$(echo "{{ title }}" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -cd '[:alnum:]-')
     pixi run hugo new content "blog/${year}/${slug}/index.md"
 
-# Print the current time for a post's front matter
+# Print and copy the current time for a post's front matter
 now:
-    @date -u +'date: "%Y-%m-%dT%H:%M:%SZ"'
+    @date -u +'date: "%Y-%m-%dT%H:%M:%SZ"' | tee /dev/tty | pbcopy
 
 # Compress a JPEG file in place
 compress file quality="85":
