@@ -22,15 +22,15 @@ environments:
     packages:
       linux-64:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-20_gnu.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/hugo-0.166.0-hd2095e1_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/hugo-0.168.0-hd2095e1_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgcc-15.2.0-he0feb66_18.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgomp-15.2.0-he0feb66_18.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-15.2.0-h934c35e_18.conda
       osx-arm64:
-      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/hugo-0.166.0-h5d6070c_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/hugo-0.168.0-h5d6070c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-22.1.0-h55c6f16_1.conda
       win-64:
-      - conda: https://conda.anaconda.org/conda-forge/win-64/hugo-0.166.0-h2bf1009_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/hugo-0.168.0-h2bf1009_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/ucrt-10.0.26100.0-h57928b3_0.conda
 packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-20_gnu.conda
@@ -46,9 +46,9 @@ packages:
   license_family: BSD
   size: 28948
   timestamp: 1770939786096
-- conda: https://conda.anaconda.org/conda-forge/linux-64/hugo-0.166.0-hd2095e1_0.conda
-  sha256: 30d6207a7a8164aaf7990abca10bd3a59d56e625ce202d5ef9310cc94a72b70f
-  md5: ee7a96503a416c3e27f8564350422491
+- conda: https://conda.anaconda.org/conda-forge/linux-64/hugo-0.168.0-hd2095e1_0.conda
+  sha256: 5a31b5a776f88f16fab791d3d25b970dfe0998005c9a58c920f2c7a30e3abc6e
+  md5: 256e235a726e51c23c286ae6aed992ce
   depends:
   - __glibc >=2.17
   - __glibc >=2.17,<3.0.a0
@@ -57,8 +57,8 @@ packages:
   license: Apache-2.0
   license_family: APACHE
   run_exports: {}
-  size: 20490835
-  timestamp: 1788994162399
+  size: 20574293
+  timestamp: 1792698096897
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libgcc-15.2.0-he0feb66_18.conda
   sha256: faf7d2017b4d718951e3a59d081eb09759152f93038479b768e3d612688f83f5
   md5: 0aa00f03f9e39fb9876085dee11a85d4
@@ -93,17 +93,17 @@ packages:
   license_family: GPL
   size: 5852330
   timestamp: 1771378262446
-- conda: https://conda.anaconda.org/conda-forge/osx-arm64/hugo-0.166.0-h5d6070c_0.conda
-  sha256: e0bdb09e9ae4e89462ef446eaecb644a6bb2d08f8401d218d41df1197009d17b
-  md5: af888b054f993df7c2e0818aa8486555
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/hugo-0.168.0-h5d6070c_0.conda
+  sha256: 6271713258b229c39f403a2253fb6382527f606328b1360bfebbd815234ac585
+  md5: a34d1ea9e7cde8e7e7fb50adb1e42fc7
   depends:
   - __osx >=12.3
   - libcxx >=21
   license: Apache-2.0
   license_family: APACHE
   run_exports: {}
-  size: 18162134
-  timestamp: 1788994138263
+  size: 18209112
+  timestamp: 1792697970669
 - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-22.1.0-h55c6f16_1.conda
   sha256: ce1049fa6fda9cf08ff1c50fb39573b5b0ea6958375d8ea7ccd8456ab81a0bcb
   md5: e9c56daea841013e7774b5cd46f41564
@@ -113,16 +113,16 @@ packages:
   license_family: Apache
   size: 568910
   timestamp: 1772001095642
-- conda: https://conda.anaconda.org/conda-forge/win-64/hugo-0.166.0-h2bf1009_0.conda
-  sha256: d301c030aa682a0d6970960eba83ce503221c2b92a3ca847e1a1af67c347c1a8
-  md5: 1c4e68029d0bce5d78c9bf7560e7e3c6
+- conda: https://conda.anaconda.org/conda-forge/win-64/hugo-0.168.0-h2bf1009_0.conda
+  sha256: a1d0089bb726a5aa5d99ee73a887d37d6dea4a0737544c5cf7df3c438ea2593d
+  md5: 70a0004d78333eec742d9064be34759b
   depends:
   - ucrt >=10.0.20348.0
   license: Apache-2.0
   license_family: APACHE
   run_exports: {}
-  size: 19843276
-  timestamp: 1788994350702
+  size: 19900747
+  timestamp: 1792698232831
 - conda: https://conda.anaconda.org/conda-forge/win-64/ucrt-10.0.26100.0-h57928b3_0.conda
   sha256: 3005729dce6f3d3f5ec91dfc49fc75a0095f9cd23bab49efb899657297ac91a5
   md5: 71b24316859acd00bdb8b38f5e2ce328
