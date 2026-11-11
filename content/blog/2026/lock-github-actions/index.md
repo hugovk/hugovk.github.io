@@ -192,6 +192,12 @@ I use zizmor in [prek](../../2025/ready-prek-go/), so add/update zizmor in
 
 OK, commit and push!
 
+## Examples
+
+- [python-pillow/Pillow#10428](https://github.com/python-pillow/Pillow/pull/10428)
+- [python/release-tools#477](https://github.com/python/release-tools/pull/477)
+- [python/miss-islington#758](https://github.com/python/miss-islington/pull/758)
+
 ---
 
 <small>Header photo:
